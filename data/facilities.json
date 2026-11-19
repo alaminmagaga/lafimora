@@ -1,0 +1,6463 @@
+{
+  "source": {
+    "name": "Kaduna State HEFA",
+    "url": "https://directory.hefa.kdbs.ng/",
+    "api": "https://hefa-server-mrq6q.ondigitalocean.app/api/facilities/page",
+    "dataset": "Kaduna State Health Facility Census / HEFA directory",
+    "censusYear": 2018,
+    "rawRecordCount": 1087,
+    "syncedAt": "2026-11-18T23:29:24.438Z"
+  },
+  "facilities": [
+    {
+      "id": "hefa-103003",
+      "name": "Aba Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Wuciciri",
+      "address": "HEALTH CLINIC ABA",
+      "pos": [
+        11.020755,
+        7.7612376
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-325225",
+      "name": "ABDU KWARI PRIMARY HEALTHCARE CENTRE",
+      "type": "hc",
+      "lga": "Sabon Gari",
+      "ward": "Muchiya",
+      "address": "PHC. ABDU. KWARI",
+      "pos": [
+        11.108285,
+        7.738327
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-224124",
+      "name": "Aboro Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Aboro",
+      "address": "Primary Health Care Aboro",
+      "pos": [
+        9.425375,
+        8.5729036
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-101001",
+      "name": "Aduwan Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Madakiya",
+      "address": "Health center aduwan gida",
+      "pos": [
+        9.711381,
+        8.3231564
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-104004",
+      "name": "Afaka Primary Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Afaka",
+      "address": "MANDO KASUWA",
+      "pos": [
+        10.594069,
+        7.4056907
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-102002",
+      "name": "Afana Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Unguwan Rimi",
+      "address": "AFANA (NEW BARRACK)",
+      "pos": [
+        9.5628138,
+        8.212492
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-192092",
+      "name": "Agunu Dutse Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Agunu",
+      "address": "MAIN STREET TO THE MARKET",
+      "pos": [
+        10.037311,
+        7.8872023
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-112012",
+      "name": "AHMADU BELLO UNIVERSITY ANNEX COMPREHENSIVE HEALTH CENTRE - F",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Chikaji",
+      "address": "OLD HOSPITAL ROAD YAN AYABA SABON GARI",
+      "pos": [
+        11.104804,
+        7.7306128
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-205105",
+      "name": "Akoti Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kagarko",
+      "ward": "Kagarko North",
+      "address": "UNGUWAN MADAKI AKOTI",
+      "pos": [
+        9.4998999,
+        7.7215958
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-111011",
+      "name": "Allah Gaba Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Auchan",
+      "address": "INFRONT OF ALLAH GABA JUMUA MUSQUE",
+      "pos": [
+        11.442857,
+        8.0285807
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-217117",
+      "name": "Amar Kontagora Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Ninzo South",
+      "address": "Primary Health Care Amar Kontogoro",
+      "pos": [
+        9.0981197,
+        8.5139961
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "11 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-110010",
+      "name": "Ancha Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Ninzo West",
+      "address": "Ancha Makaranta primary Health Care",
+      "pos": [
+        9.1787081,
+        8.4330454
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-134034",
+      "name": "Anchau Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Anchau",
+      "address": "RIMI STREET ANCHAU TAKA LAFIYA",
+      "pos": [
+        10.95892,
+        8.3831501
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-123023",
+      "name": "Ang. Kartau Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Ikara",
+      "address": "HEALTH CLINIC UNGUWAN KARTAU, ALONG SOBA ROAD IKARA",
+      "pos": [
+        11.148752,
+        8.2082939
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "growth"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-313213",
+      "name": "Anguwan Alkali Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Kwarbai B",
+      "address": "Anguwan Direbobi",
+      "pos": [
+        11.071856,
+        7.7037034
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-314214",
+      "name": "Anguwan Dankali Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Kufena",
+      "address": "ANGUWAN DANKALI",
+      "pos": [
+        11.079291,
+        7.6826634
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-105005",
+      "name": "ANGUWAN DAY HEALTH CLINIC - F",
+      "type": "hc",
+      "lga": "Kajuru",
+      "ward": "Kufana",
+      "address": "UNGUWAN DAY HEALTH CENTER (ROTARY IYAYA) KACHIA ROAD KUFANA",
+      "pos": [
+        10.285983,
+        7.7644515
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-312212",
+      "name": "Anguwan Fatika Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Unguwar Fatika",
+      "address": "MAKAMA ABBAS PRIMARY HEALTH CENTER ANGUWAN FATIKA",
+      "pos": [
+        11.06282,
+        7.6913676
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-129029",
+      "name": "ANGUWAN GAGA HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Yakawada",
+      "address": "HEALTH FACILITY ANGUWAN GAGA",
+      "pos": [
+        11.204066,
+        7.3752842
+      ],
+      "services": [],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-265165",
+      "name": "Anguwan Jaji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Makarfi",
+      "ward": "Gwanki",
+      "address": "Jaji health clinic",
+      "pos": [
+        11.271881,
+        8.0890179
+      ],
+      "services": [],
+      "hours": "8 hours daily · Four days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-144044",
+      "name": "Anguwan Malamai Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Dutsen Abba",
+      "address": "Health Clinic Anguwan malamai",
+      "pos": [
+        11.004313,
+        7.6212578
+      ],
+      "services": [
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-169069",
+      "name": "Ankung A Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Nduya",
+      "address": "Pramiry health care Ankung A",
+      "pos": [
+        9.400691,
+        7.9735627
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-107007",
+      "name": "Aribi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kagarko",
+      "ward": "Aribi",
+      "address": "OPPOSITE BETTER TOMORROW NURSERY AND PRIMARY SCHOOL ARIBI",
+      "pos": [
+        9.5233307,
+        7.8489981
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-272172",
+      "name": "Ashema B Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kudaru",
+      "address": "ASHEMA OPPOSITE LEA PRIMARY SCHOOL",
+      "pos": [
+        10.46604,
+        8.5218019
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-229129",
+      "name": "Asso Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jemaa",
+      "ward": "Asso",
+      "address": "PRIMARY HEALTH CARE ASSO",
+      "pos": [
+        9.4300299,
+        8.1662092
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-230130",
+      "name": "Atuku Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jemaa",
+      "ward": "Atuku",
+      "address": "PRIMARY HEALTH CARE ATUKU LASANG, CLOSED TO ECWA 2 CHURCH",
+      "pos": [
+        9.4819679,
+        8.4628544
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-131031",
+      "name": "Auchanawa Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Ikara",
+      "address": "ALONG AUCHANAWA ROAD IKARA LOCAL GOVERNMENT",
+      "pos": [
+        11.216067,
+        8.2555304
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-154054",
+      "name": "Audi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Zangon Aya",
+      "address": "H0 Audi",
+      "pos": [
+        10.970397,
+        7.7089849
+      ],
+      "services": [
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Four days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-279179",
+      "name": "Awai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Gimba",
+      "address": "SABON LAYI AWAI",
+      "pos": [
+        11.067947,
+        7.9001341
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-305205",
+      "name": "Babban Dodo Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Limancin Kona",
+      "address": "PHC Anguwan Rubu Babban Dodo",
+      "pos": [
+        11.058942,
+        7.7009201
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-560460",
+      "name": "Badarawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Badarawa",
+      "address": "NO.8 BADARAWA MAIN ROAD BADARAWA",
+      "pos": [
+        10.559114,
+        7.4478502
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-444344",
+      "name": "BADIKKO PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Badiko",
+      "address": "NO2 MAIANGWA ROAD, BADIKKO KADUNA.",
+      "pos": [
+        10.535742,
+        7.408462
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-232132",
+      "name": "Bafai Gora Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zango Kataf",
+      "ward": "Gora",
+      "address": "PHC GORA BAFAI BEHIND YUSUF BALAT HOUSE GORA BAFAI",
+      "pos": [
+        9.8737564,
+        8.2913647
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-147047",
+      "name": "Bajimi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Panhauya",
+      "address": "SABON LAYI BIJIMI",
+      "pos": [
+        11.145645,
+        7.5680394
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-118018",
+      "name": "Bakin Kogi Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Badurum",
+      "address": "Close to Bakin kogi junction",
+      "pos": [
+        9.8845062,
+        8.4929867
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-133033",
+      "name": "Bamuyayi Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Kuya",
+      "address": "HEALTH CLINIC BAMUYAYI, KUYA.",
+      "pos": [
+        11.460039,
+        8.1299419
+      ],
+      "services": [
+        "pnc",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-114014",
+      "name": "Barde Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jemaa",
+      "ward": "Barde",
+      "address": "PRIMARY HEALTH CARE CENTRE BARDE",
+      "pos": [
+        9.3174887,
+        8.0362158
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-116016",
+      "name": "BAREBARI HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Yakawada",
+      "address": "Bare bare health facility",
+      "pos": [
+        11.130877,
+        7.3780122
+      ],
+      "services": [
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-135035",
+      "name": "Bareda Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Saya-Saya Ward",
+      "address": "SABON LAYI BAREDA",
+      "pos": [
+        11.214167,
+        8.3920345
+      ],
+      "services": [
+        "growth"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-113013",
+      "name": "BARIN MALAMAI HEALTH CENTRE - F",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Kakangi",
+      "address": "BARIN MALAMAI",
+      "pos": [
+        11.203191,
+        7.4740844
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-320220",
+      "name": "Basawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Basawa",
+      "address": "PHC BASAWA",
+      "pos": [
+        11.177393,
+        7.6720848
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "16 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-170070",
+      "name": "Bitaro Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Dura Bitaro",
+      "address": "PRIMARY HEALTH CARE BITARO",
+      "pos": [
+        9.4803905,
+        7.9661884
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-148048",
+      "name": "Biye Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Panhauya",
+      "address": "BIYE",
+      "pos": [
+        11.160388,
+        7.5866566
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-130030",
+      "name": "Bomawa Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Gangara Ward",
+      "address": "BOMAWA HC",
+      "pos": [
+        11.346565,
+        7.4976907
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-240140",
+      "name": "Bomo Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Sabon Gari",
+      "ward": "Bomo",
+      "address": "HEALTH CLINIC KURMIN BOMO",
+      "pos": [
+        11.18948,
+        7.6220007
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-158058",
+      "name": "Bondong Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Bondong",
+      "address": "Primary Health Center, Bondong, Kaura LGA, Kaduna.",
+      "pos": [
+        9.7223682,
+        8.5517817
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-339239",
+      "name": "BUGAI-C HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kujama",
+      "address": "APIKO,BUGAI CLINIC.",
+      "pos": [
+        10.506621,
+        7.65587
+      ],
+      "services": [
+        "anc",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-202102",
+      "name": "Bugau Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kubau",
+      "ward": "Haskiya",
+      "address": "HEALTH CLINIC BUGAU",
+      "pos": [
+        10.951793,
+        8.4476662
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Two days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-5731",
+      "name": "BURUKU PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-329229",
+      "name": "Chikaji Primary Health Care Center",
+      "type": "hc",
+      "lga": "Sabon Gari",
+      "ward": "Chikaji",
+      "address": "Tobacco Road Cikaji Sabongari Zaria",
+      "pos": [
+        11.122179,
+        7.7282257
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-175075",
+      "name": "Daddu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Daddu",
+      "address": "PRIMARY HEALTH CARE",
+      "pos": [
+        9.5519915,
+        8.1282253
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-149049",
+      "name": "Dako Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Idasu",
+      "address": "OPPOSITE LEA PRIMARY SCHOOL DAKO, ALONG YAKAWADA KAYA ROAD GIWA.",
+      "pos": [
+        11.219266,
+        7.2985582
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-324224",
+      "name": "Dakunu Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Chikun",
+      "address": "HEALTH CLINIC OPPOSITE ASSEMBLY OF GOD CHURCH GASKIYA BMANA DAKUNU",
+      "pos": [
+        10.247332,
+        7.0386066
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-250150",
+      "name": "Damakasuwa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Damakasuwa",
+      "address": "PRIMARY HEALTH CARE DAMAKASUWA OPPOSITE THE NEW POLICE STATION DAMAKASUWA",
+      "pos": [
+        9.9629345,
+        8.5286636
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-137037",
+      "name": "Damari Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Birnin Gwari",
+      "ward": "Damari",
+      "address": "DAMARI, BIRNIN GWARI",
+      "pos": [
+        11.048433,
+        6.9968338
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-306206",
+      "name": "Dambo Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Dambo",
+      "address": "PHC DANBO, OPOSITE PRAMARY DAMBO",
+      "pos": [
+        11.075878,
+        7.7723818
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-418318",
+      "name": "Dan'Alhaji Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Dan Alhaji",
+      "address": "ALONG KANO ROAD",
+      "pos": [
+        10.531384,
+        8.689683
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-346246",
+      "name": "DANBUSHIYA HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Rido",
+      "address": "DANBUSHIYA, MILLENIUM CITY KADUNA",
+      "pos": [
+        10.538346,
+        7.4842701
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-214114",
+      "name": "Dandamisa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Makarfi",
+      "ward": "Dandamisa",
+      "address": "Phc danmisa",
+      "pos": [
+        11.239765,
+        7.836761
+      ],
+      "services": [
+        "anc",
+        "maternal"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-248148",
+      "name": "Dandaura Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Makami",
+      "address": "PRIMARY HEALTH CARE DANDAURA",
+      "pos": [
+        10.681607,
+        8.0623493
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-117017",
+      "name": "Dangashi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kudan",
+      "ward": "Kauran Wali South",
+      "address": "PHC KAURAN WALI SOUTH",
+      "pos": [
+        11.288337,
+        7.8504882
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-215115",
+      "name": "Danguzuri Primary Health Care Center",
+      "type": "phc",
+      "lga": "Makarfi",
+      "ward": "Danguziri",
+      "address": "PHC DANGUZURI",
+      "pos": [
+        11.367405,
+        7.830586
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-203103",
+      "name": "Danhauya Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kubau",
+      "ward": "Damau",
+      "address": "TSAMEKU DANHAUYA",
+      "pos": [
+        10.887065,
+        8.3936501
+      ],
+      "services": [
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "5 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-206106",
+      "name": "Danjinjiri Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Unguwar Juma",
+      "address": "DANJINJIRI PHC",
+      "pos": [
+        11.04854,
+        7.6928458
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "2 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-180080",
+      "name": "Danmahawayi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Danmahawayi",
+      "address": "UNGUWAN WAZIRI DANMAHAWAYI, GIWA.",
+      "pos": [
+        11.309095,
+        7.5770788
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-280180",
+      "name": "Danwata Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Danwata",
+      "address": "Danwata",
+      "pos": [
+        10.941557,
+        8.1898737
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-241141",
+      "name": "Dogon Daji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Raminkura",
+      "address": "DOGON DAJI 1",
+      "pos": [
+        10.305349,
+        8.5486546
+      ],
+      "services": [
+        "anc",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-255155",
+      "name": "Doka Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Doka",
+      "address": "KM 60 ABUJA HIGH WAY DOKA",
+      "pos": [
+        9.930006,
+        7.4264874
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-120020",
+      "name": "Doka Primary Health Care Clinic (Kajuru)",
+      "type": "hc",
+      "lga": "Kajuru",
+      "ward": "Idon",
+      "address": "KADUNA-KACHIA ROAD, DOKA.",
+      "pos": [
+        10.23466,
+        7.9061718
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-121021",
+      "name": "Dokan Dan Magaji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Kakangi",
+      "address": "LAYIN MAI ANGUWA ADO",
+      "pos": [
+        11.230118,
+        7.4086056
+      ],
+      "services": [
+        "child",
+        "growth"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-242142",
+      "name": "Dokan Danbala Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Dan Alhaji",
+      "address": "DOKAN DAN BALA",
+      "pos": [
+        10.590611,
+        8.6597528
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-122022",
+      "name": "Dokan Waziri Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Yakawada",
+      "address": "DOKA WAZIRI",
+      "pos": [
+        11.202395,
+        7.418819
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-132032",
+      "name": "Dundubus Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Gangara Ward",
+      "address": "DUNDUBUS",
+      "pos": [
+        11.365047,
+        7.4775443
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-106006",
+      "name": "Dura Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Jaba",
+      "ward": "Dura Bitaro",
+      "address": "HEALTH CLINIC DURA",
+      "pos": [
+        9.4223766,
+        7.9807682
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-303203",
+      "name": "Dutsenwai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Dutsen Wai",
+      "address": "NO 1 ANCHAU JUNCTION ALONG ZARIA ROAD",
+      "pos": [
+        10.848411,
+        8.2015276
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-119019",
+      "name": "Fadan Daji Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Fada",
+      "address": "BEFORE SAINT PAUL'S Catholic CHURCH FADAN DAJI",
+      "pos": [
+        9.6349115,
+        8.3577986
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-140040",
+      "name": "Fadan Kamantan Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zango Kataf",
+      "ward": "Kamantan",
+      "address": "FADAN KAMANTAN",
+      "pos": [
+        9.8179502,
+        8.171133
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-220120",
+      "name": "Fadan Karshi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Karshi",
+      "address": "Opposite UBE primary School U/ Jere",
+      "pos": [
+        9.3818588,
+        8.5764723
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-219119",
+      "name": "Fadan Ninzo Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Ninzo North",
+      "address": "Primary Health Care Fadan Ninzam",
+      "pos": [
+        9.1567669,
+        8.5275736
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-237137",
+      "name": "Farakwai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Turunku",
+      "address": "ALONG KADUNA ZARIA ROAD KWANAN FARAKWAI, IGABI.",
+      "pos": [
+        10.872885,
+        7.6270156
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-233133",
+      "name": "Farman Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zango Kataf",
+      "ward": "Gidan Jatau",
+      "address": "PRIMARY HEALTH CARE FARMAN OPPOSITE LOCAL GOVERNMENT EDUCATION AUTHORITY ( LG E A)PRIMARY SCHOOL FARMAN",
+      "pos": [
+        9.7012758,
+        8.1745605
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-171071",
+      "name": "Forgyei Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Fada",
+      "address": "PRIMARY HEALTH CARE FORGEI",
+      "pos": [
+        9.4588232,
+        8.0042982
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-155055",
+      "name": "Furana Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Kurmin Kogi",
+      "address": "Furana Road",
+      "pos": [
+        11.274944,
+        8.2116804
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-235135",
+      "name": "GADAN GAYAN PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Panshanu",
+      "address": "PHC GADAR GAYAN",
+      "pos": [
+        10.709818,
+        7.7462115
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-124024",
+      "name": "Galadimawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Galadimawa",
+      "address": "BIRNIN GWARI ROAD",
+      "pos": [
+        11.059245,
+        7.3224111
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-285185",
+      "name": "Gamagira Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Gamagira",
+      "address": "GAMAGIRA VILLAGE",
+      "pos": [
+        10.694433,
+        7.8890457
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-156056",
+      "name": "Gangara Primary Health Care Center",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Kuya",
+      "address": "GANGARIDA HEALTH CLINIC",
+      "pos": [
+        11.390363,
+        8.0825291
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-181081",
+      "name": "Gangara Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Gangara Ward",
+      "address": "ANGUWAN WAZIRI GANGARA",
+      "pos": [
+        11.337934,
+        7.3848019
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-281181",
+      "name": "Garu Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Garu",
+      "address": "GARU VILLAGE",
+      "pos": [
+        10.849943,
+        8.0137444
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-419319",
+      "name": "Garu Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Garu Mariri",
+      "address": "GARUN KURAMA ALONG KAFANCHAN ROAD",
+      "pos": [
+        10.171579,
+        8.5761204
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-127027",
+      "name": "Gidan Sarki Yahaya Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Yakawada",
+      "address": "Health clinic gidan sarki yahaya",
+      "pos": [
+        11.204477,
+        7.3468947
+      ],
+      "services": [
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "5 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-256156",
+      "name": "Gidan Tagwai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Gidan Tagwai",
+      "address": "OPPOSITE GOVERNMENT SECONDARY SCHOOL GIDAN TAGWAI",
+      "pos": [
+        9.6987705,
+        8.0352535
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-231131",
+      "name": "Gidan Waya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jemaa",
+      "ward": "Gidan Waya",
+      "address": "Close to gida waya market",
+      "pos": [
+        9.4663963,
+        8.3841257
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-286186",
+      "name": "Gimba Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Soba",
+      "ward": "Gimba",
+      "address": "ANGUWAN GOMMA GIMBA",
+      "pos": [
+        11.072366,
+        7.9546552
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-182082",
+      "name": "Giwa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Giwa",
+      "address": "BY SOKOTO ROAD BEHIND POLICE STATION GIWA.",
+      "pos": [
+        11.253231,
+        7.4669533
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-299199",
+      "name": "Gonigora Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "HEALTH CENTRE GONIN GORA",
+      "pos": [
+        10.431242,
+        7.3972416
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "5 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-273173",
+      "name": "Goron Dutse Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kayarda",
+      "address": "GORON DUTSE",
+      "pos": [
+        10.564962,
+        8.5905066
+      ],
+      "services": [
+        "anc",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-353253",
+      "name": "Government Girl Secondary",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Kabala",
+      "address": "No 1 Riverline Road kabala coastin",
+      "pos": [
+        10.501436,
+        7.4405308
+      ],
+      "services": [],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-354254",
+      "name": "Government Girl Secondary senior",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Kabala",
+      "address": "No 1 River line Road kabala coastin",
+      "pos": [
+        10.501371,
+        7.4401288
+      ],
+      "services": [],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-350250",
+      "name": "GOVERNMENT TECHNICAL COLLEGE SCHOOL CLINIC",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Badarawa",
+      "address": "Government technical college malali",
+      "pos": [
+        10.555018,
+        7.4693542
+      ],
+      "services": [
+        "bf",
+        "nutrition"
+      ],
+      "hours": "11 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-151051",
+      "name": "Gwada Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Kerawa",
+      "address": "HEALTH CLINIC GWADA,",
+      "pos": [
+        10.951413,
+        7.5458565
+      ],
+      "services": [
+        "child"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-487387",
+      "name": "Gwagwada Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Gwagwada",
+      "address": "PRIMARY HEALTH CENTER NEAR CUSTOMARY COURT GWAGWADA",
+      "pos": [
+        10.253723,
+        7.2283683
+      ],
+      "services": [
+        "anc",
+        "maternal"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-225125",
+      "name": "Gwantu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Gwantu",
+      "address": "Primary Health Care Gwantu Sanga L GA",
+      "pos": [
+        9.2265072,
+        8.4564037
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "3 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-152052",
+      "name": "Gwaraji Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Gwaraji",
+      "address": "GWARAJI PRIMARY HEALTH CENTRE",
+      "pos": [
+        10.556634,
+        7.7262406
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-307207",
+      "name": "Gyallesu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Gyellesu",
+      "address": "Makama by sarkin yaki road",
+      "pos": [
+        11.08894,
+        7.7257624
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-338238",
+      "name": "Hanwa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Hanwa",
+      "address": "Phc Hanwa Rinji",
+      "pos": [
+        11.116881,
+        7.7037959
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-304204",
+      "name": "Haskiya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Haskiya",
+      "address": "ANGUWAN SARKI HASKIYA",
+      "pos": [
+        11.023846,
+        8.4555387
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-562462",
+      "name": "Hayin Banki Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Hayin Banki",
+      "address": "Nataala Road Hayin Binki opposite parish Church",
+      "pos": [
+        10.577761,
+        7.4359546
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-323223",
+      "name": "Hayin Dogo Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Bomo",
+      "address": "PHC HAYIDOGO",
+      "pos": [
+        11.169215,
+        7.6588135
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-150050",
+      "name": "HC DETU - F",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Wazata",
+      "address": "DETU B",
+      "pos": [
+        11.094033,
+        7.6089201
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-333233",
+      "name": "HC UNGUWAN TURAI - F",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Gwagwada",
+      "address": "HEALTH CLINIC BY CHIKUN ROAD UNGUWAN TURAI GWAGWADA",
+      "pos": [
+        10.309568,
+        7.1883302
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Six days",
+      "status": "Non-Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-176076",
+      "name": "Hunkuyi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kudan",
+      "ward": "Hunkuyi",
+      "address": "Phc hunkuyi unguwan barebari",
+      "pos": [
+        11.27003,
+        7.6520553
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-165065",
+      "name": "Iddah Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kagarko",
+      "ward": "Iddah",
+      "address": "CLOSE TO THE MARKET",
+      "pos": [
+        9.4184732,
+        7.3615866
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-236136",
+      "name": "Igabi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Igabi",
+      "address": "PHC IGABI",
+      "pos": [
+        10.784246,
+        7.7754869
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "11 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-243143",
+      "name": "Ikara Primary Health Care Center",
+      "type": "phc",
+      "lga": "Ikara",
+      "ward": "Ikara",
+      "address": "HAYIN ASIBITI, IKARA LOCAL GOVERNMENT.",
+      "pos": [
+        11.173694,
+        8.2272282
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-308208",
+      "name": "Iyal Kwarbai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Kwarbai A",
+      "address": "Aliyu Dan Sidi Road opp. GGSS K/Fada",
+      "pos": [
+        11.065015,
+        7.7146468
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-208108",
+      "name": "Jaji Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Birnin Yero",
+      "address": "KARGO ROAD, JAJI",
+      "pos": [
+        10.823426,
+        7.5698586
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-348248",
+      "name": "Jama'a Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Jama'a",
+      "address": "P.H0 JAMA'A",
+      "pos": [
+        11.136268,
+        7.6695924
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-247147",
+      "name": "Jamaar Iya Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Garu Mariri",
+      "address": "TSAKIYA BESIDE IYA MOSQUE, JAMA'AR IYA",
+      "pos": [
+        10.149582,
+        8.5160141
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-207107",
+      "name": "Jere Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kagarko",
+      "ward": "Jere North",
+      "address": "UNGWAN LAYI, AFTER THE PALACE.",
+      "pos": [
+        9.5737991,
+        7.4352674
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-563463",
+      "name": "Junction Road Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Sardauna",
+      "address": "PHC JUNCTION ROAD KADUNA NORTH LGA",
+      "pos": [
+        10.504051,
+        7.4261794
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-564464",
+      "name": "Kabala Doki Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Kabala",
+      "address": "Market road kabala doki",
+      "pos": [
+        10.502066,
+        7.4434967
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-429329",
+      "name": "Kabala West 1 Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Sabon Gari West",
+      "address": "Kabala West,Sabon Gari West",
+      "pos": [
+        10.504439,
+        7.393671
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-257157",
+      "name": "Kachia Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Kachia",
+      "address": "TSOHON KASUWA STREET, ADJACENT AGWOM ADARA PALACE, KACHIA",
+      "pos": [
+        9.8718548,
+        7.9535718
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-437337",
+      "name": "Kaduna capital school health clinic",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Badarawa",
+      "address": "Isa kaita Raid Malali",
+      "pos": [
+        10.549127,
+        7.4648638
+      ],
+      "services": [],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-252152",
+      "name": "Kagadama Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Kauru East",
+      "address": "KAGADAMA KAURU LOCAL GOVERNMENT",
+      "pos": [
+        10.558362,
+        8.2031965
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-197097",
+      "name": "Kagoma Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jemaa",
+      "ward": "Kagoma",
+      "address": "FADAN KAGOMA",
+      "pos": [
+        9.5074635,
+        8.1763887
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-328228",
+      "name": "Kakau Daji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "HEALTH CENTER KAKAU DAJI",
+      "pos": [
+        10.385223,
+        7.4557586
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-488388",
+      "name": "Kakau Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "PRIMARY HEALTH CARE KAKAU.",
+      "pos": [
+        10.375798,
+        7.3953099
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-420320",
+      "name": "Kakidare Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Gure Kahugu",
+      "address": "PRIMARY HEALTH CARE KAKIDARE",
+      "pos": [
+        10.340755,
+        8.3960915
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-316216",
+      "name": "Kaku Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Gyellesu",
+      "address": "PHC KAKU, ZARIA LOCAL GOVERNMENT",
+      "pos": [
+        11.045908,
+        7.7289867
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-345245",
+      "name": "KAKURI GWARI PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Kakuri Gwari",
+      "address": "INSIDE MONDAY MARKET, KURMIN GWARI KAKURI KADUNA.",
+      "pos": [
+        10.456338,
+        7.4125948
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-194094",
+      "name": "Kallah Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kajuru",
+      "ward": "Kallah",
+      "address": "PHC KALLAH",
+      "pos": [
+        10.418951,
+        7.801959
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-253153",
+      "name": "Kamaru Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Kamaru",
+      "address": "Close to House of Rep. Member",
+      "pos": [
+        9.8125801,
+        8.624548
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-344244",
+      "name": "Kamazou Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Rido",
+      "address": "Before hakimi palace Jaruwa",
+      "pos": [
+        10.465183,
+        7.4824915
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-159059",
+      "name": "Kamfanin Doka Primary Health Care Center",
+      "type": "phc",
+      "lga": "Birnin Gwari",
+      "ward": "Gayam",
+      "address": "DOKA KASTINA ROAD",
+      "pos": [
+        10.791441,
+        6.6364579
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "growth"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-228128",
+      "name": "Kamfanin maude Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Zabi",
+      "address": "OPPOSITE PRIMARY SCHOOL KAMFANIN MAUDE",
+      "pos": [
+        10.691292,
+        8.1387978
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-234134",
+      "name": "Kamuru Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zango Kataf",
+      "ward": "Ikulu",
+      "address": "PRIMARY HEALTH CARE CENTER",
+      "pos": [
+        9.90555,
+        8.1817036
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-318218",
+      "name": "Kankomi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "HEALTH CLINIC KANKOMI.",
+      "pos": [
+        10.338295,
+        7.5163417
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-262162",
+      "name": "Kargi Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Kargi",
+      "address": "Phc kargi",
+      "pos": [
+        11.024965,
+        8.3358469
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-199099",
+      "name": "Kasuwan Magani Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kajuru",
+      "ward": "Kasuwan Magani",
+      "address": "Kachia road",
+      "pos": [
+        10.403515,
+        7.7130585
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-258158",
+      "name": "Katari Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Katari",
+      "address": "UNGUWAN KURMI STREET KATARI",
+      "pos": [
+        9.6996498,
+        7.4515367
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-386286",
+      "name": "Katarma Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Chikun",
+      "address": "HEALTH CLINIC OPPOSITE FIRST ECWA CHURCH DNAKO KATARMA",
+      "pos": [
+        10.046023,
+        7.1037035
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-161061",
+      "name": "Kaura Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Kaura",
+      "address": "Beside Ecwa 2, Kaura, Kaduna.",
+      "pos": [
+        9.668623,
+        8.4559088
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-249149",
+      "name": "Kauru Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Kauru West",
+      "address": "PRIMARY HEALTH CARE GENERAL HOSPITAL ROAD MARBAKI KAURU",
+      "pos": [
+        10.574287,
+        8.1451378
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-271171",
+      "name": "Kawere Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Gure Kahugu",
+      "address": "Kawere kadunge opposite haruna baguje house",
+      "pos": [
+        10.34302,
+        8.423727
+      ],
+      "services": [
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "18 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-183083",
+      "name": "Kaya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Idasu",
+      "address": "OPPOSITE PRIMARY SCHOOL BY SABUWA ROAD KAYA, GIWA.",
+      "pos": [
+        11.251138,
+        7.2394538
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-427327",
+      "name": "Kayarda Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Kayarda",
+      "address": "KAYARDA PHC",
+      "pos": [
+        10.496684,
+        8.5966759
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-5295",
+      "name": "kd Birnin Gwari Maternal And Child Health Clinic",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-5441",
+      "name": "kd Kubau Road Health Clinic",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-5336",
+      "name": "kd Mando Primary Health Centre",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-392292",
+      "name": "KEKE B HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kujama",
+      "address": "GIDAN SARKIN KKB",
+      "pos": [
+        10.558475,
+        7.4933286
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-172072",
+      "name": "Kidandan Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Kidandan",
+      "address": "PHC KIDANDAN",
+      "pos": [
+        11.054406,
+        7.1925521
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-227127",
+      "name": "Kidugu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Bital",
+      "address": "KIDUGU II",
+      "pos": [
+        10.154539,
+        8.2805042
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-160060",
+      "name": "Kigo Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Zangon Aya",
+      "address": "KIGO VILLAGE, LAMBAR ZANGO",
+      "pos": [
+        10.936827,
+        7.6650052
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-212112",
+      "name": "Kono Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Geshere",
+      "address": "FADAN KONO",
+      "pos": [
+        10.211525,
+        8.3844681
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-347247",
+      "name": "Krosha Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Lazuru Tuddai",
+      "address": "BESIDE LGEA PRIMARY SCHOOL KROSHA",
+      "pos": [
+        10.355621,
+        8.7039566
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-177077",
+      "name": "Kudan Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kudan",
+      "ward": "Kudan",
+      "address": "PHC Kudan sabon garin kudan",
+      "pos": [
+        11.309198,
+        7.7375016
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-503403",
+      "name": "KUDENDA HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Sabon Gari Ward",
+      "address": "OPPOSITE TO KUDANDAN HEALTH CENTER KUDANDAN KADUNA",
+      "pos": [
+        10.478925,
+        7.3738718
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-393293",
+      "name": "Kudenda Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Sabon Gari Ward",
+      "address": "H C. kudandan chikun LG in sabon gari",
+      "pos": [
+        10.479053,
+        7.373755
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Non-Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-330230",
+      "name": "Kujama Gari Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kujama",
+      "address": "KUJAMA GARI, HEALTH CENTER.",
+      "pos": [
+        10.457828,
+        7.6379104
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-209109",
+      "name": "Kukui Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kagarko",
+      "ward": "Kukuyi",
+      "address": "OPPOSITE GOVERNMENT SECONDARY SCHOOL, KUKUI.",
+      "pos": [
+        9.3813772,
+        7.8300228
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-128028",
+      "name": "Kukum Gida Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Kukum",
+      "address": "Primary Health Care Center Kukum Gida, after ECWA Church, Kukum Gida, Kagoro.",
+      "pos": [
+        9.603467,
+        8.3855486
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-153053",
+      "name": "Kuramaka Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Kakangi",
+      "address": "HEALTH CLINIC KURAMAKA",
+      "pos": [
+        11.152658,
+        7.4712515
+      ],
+      "services": [
+        "pnc",
+        "child"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-5771",
+      "name": "KURIGA PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-210110",
+      "name": "Kurmin Jibrin Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kagarko",
+      "ward": "Kurmin Jibrin",
+      "address": "BEHIND FILING STATION",
+      "pos": [
+        9.4732037,
+        7.9356608
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-251151",
+      "name": "Kurmin Kogi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Ikara",
+      "ward": "Kurmin Kogi",
+      "address": "PHC KURMIN KOGI",
+      "pos": [
+        11.206801,
+        8.1074953
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-259159",
+      "name": "Kurmin Musa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Kurmin Musa",
+      "address": "ALONG CHORI ROAD",
+      "pos": [
+        9.5767937,
+        8.0238247
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-204104",
+      "name": "Kutemeshi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Birnin Gwari",
+      "ward": "Kutemeshi",
+      "address": "KUTEMESHE , BIRNIN GWARI",
+      "pos": [
+        11.175047,
+        7.0515432
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-189089",
+      "name": "KWARAU GARI HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Kwarau",
+      "address": "ANGUWAN SARKI KWARAU",
+      "pos": [
+        10.769732,
+        7.4995699
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-282182",
+      "name": "Kwasallo Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Kwasallo",
+      "address": "ANGUWAN SARKIN FADA KWASALLO",
+      "pos": [
+        11.187846,
+        7.9936094
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-254154",
+      "name": "Kwassam Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kauru",
+      "ward": "Kwassam",
+      "address": "PRIMARY HEALTH CARE (PHC) KWASSAM IS ADJACENT TO THE CATHOLIC CHURCH PARISH KWASSAM.",
+      "pos": [
+        10.34453,
+        8.2413454
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-190090",
+      "name": "Lamban Zango Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Zangon Aya",
+      "address": "HC LANBAN ZANGO",
+      "pos": [
+        10.923663,
+        7.6477652
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "growth"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-196096",
+      "name": "Langa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Arak",
+      "address": "Primary Health Care Langa",
+      "pos": [
+        9.2344046,
+        8.3434219
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-421321",
+      "name": "Lazuru Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Lazuru Tuddai",
+      "address": "PRIMARY HEALTH CARE LAZURU",
+      "pos": [
+        10.366417,
+        8.677289
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-422322",
+      "name": "Lere Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Lere",
+      "address": "ANGUWAN LAWALI LERE",
+      "pos": [
+        10.384519,
+        8.571331
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-319219",
+      "name": "Ligari Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "HEALTH CLINIC LIGARU",
+      "pos": [
+        10.428233,
+        7.3560948
+      ],
+      "services": [
+        "anc",
+        "pnc"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-178078",
+      "name": "Likoro Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kudan",
+      "ward": "Likoro",
+      "address": "Primary health care lokoro",
+      "pos": [
+        11.203916,
+        7.8030357
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-211111",
+      "name": "Liman Ibada Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Soba",
+      "ward": "Gamagira",
+      "address": "ALONG MARABAN JOS ROAD LIMAN IBADA",
+      "pos": [
+        10.72895,
+        7.9449382
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-136036",
+      "name": "Madara Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Gangara Ward",
+      "address": "Health facility madara",
+      "pos": [
+        11.316734,
+        7.4681172
+      ],
+      "services": [
+        "pnc",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-213113",
+      "name": "Madarzai Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Soba",
+      "ward": "Turawa",
+      "address": "HEALTH CLINIC MADARZAI",
+      "pos": [
+        11.050293,
+        8.0293665
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-191091",
+      "name": "Mahuta Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Rigasa",
+      "address": "HC MAHUTA",
+      "pos": [
+        10.564794,
+        7.4022422
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-277177",
+      "name": "Maigamo Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kudaru",
+      "address": "ALONG JANKASA ROAD MAIGAMO",
+      "pos": [
+        10.684254,
+        8.3746862
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-266166",
+      "name": "MAJERU HEALTH CLINIC",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Dutsen Abba",
+      "address": "MAJERU DUTSEN ABBA",
+      "pos": [
+        11.034855,
+        7.6459498
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-431331",
+      "name": "Makera Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Makera",
+      "address": "PHC MAKERA MAIN ROAD,KAKURI KADUNA",
+      "pos": [
+        10.469151,
+        7.4124155
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-145045",
+      "name": "Makera Primary Health Care Center",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Galadimawa",
+      "address": "MAKERA VILLAGE, GALADIMAWA",
+      "pos": [
+        11.108393,
+        7.3091478
+      ],
+      "services": [],
+      "hours": "0 hours daily · No response",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-163063",
+      "name": "Mallagum 1 Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Malagum",
+      "address": "Primary Health Care CenterbMallagum 2 Tum, Opposite Mallagum Market by Tum Junction.",
+      "pos": [
+        9.6777697,
+        8.3881731
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-157057",
+      "name": "Manchok Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaura",
+      "ward": "Manchok",
+      "address": "Primary Health Center, Manchock after manchock market Kaura, Kaduna.",
+      "pos": [
+        9.6689558,
+        8.5123377
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-168068",
+      "name": "Maniya Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Madakiya",
+      "address": "HEALTH CLINIC MANIYA BESIDE CATHOLIC CHURCH",
+      "pos": [
+        9.6906118,
+        8.3588953
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-377277",
+      "name": "Manumfashi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kayarda",
+      "address": "HEALTH CLINIC MANUFASHI",
+      "pos": [
+        10.469851,
+        8.6193466
+      ],
+      "services": [
+        "growth"
+      ],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-238138",
+      "name": "Maraban Jos Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Kwarau",
+      "address": "JOS ROAD MARABAN JOS",
+      "pos": [
+        10.697334,
+        7.5158
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-499399",
+      "name": "Maraban Rido Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Rido",
+      "address": "IN THE MARABAN RIDO MARKET",
+      "pos": [
+        10.432385,
+        7.5286918
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-223123",
+      "name": "Mayere Primary Health Care Center",
+      "type": "phc",
+      "lga": "Makarfi",
+      "ward": "Meyari",
+      "address": "PHC mayere",
+      "pos": [
+        11.32833,
+        8.0054541
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-226126",
+      "name": "Mayir Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Ayu",
+      "address": "Primary Health Care Mayir",
+      "pos": [
+        9.2487717,
+        8.5928764
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-246146",
+      "name": "Miyatti (Rigasa) Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Rigasa",
+      "address": "GARBA RABA MIYATTI ALLAH PHC MAKARFI ROAD RIGASA",
+      "pos": [
+        10.521981,
+        7.3758502
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-368268",
+      "name": "Mohammed Bello Tukur Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Badarawa",
+      "address": "Kenya Road Malali Kaduna",
+      "pos": [
+        10.561066,
+        7.4720006
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-439339",
+      "name": "MUAZU PRIMARY HEALTHCARE CENTRE",
+      "type": "hc",
+      "lga": "Kaduna South",
+      "ward": "Sabon Gari West",
+      "address": "MARKET ROAD UNGUWAN MUAZU",
+      "pos": [
+        10.49798,
+        7.3929801
+      ],
+      "services": [
+        "anc"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-275175",
+      "name": "Muchia Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Muchiya",
+      "address": "PHC MUCHIYA",
+      "pos": [
+        11.122691,
+        7.7324619
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-139039",
+      "name": "Mujedawa Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Giwa",
+      "address": "Health clinic mujedaw",
+      "pos": [
+        11.277371,
+        7.41782
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-491391",
+      "name": "NARAYI PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Narayi",
+      "address": "PRIMARY HEALTH CARE NARAYI BAYAN DUTSE NARAYI CHIKUN KADUNA",
+      "pos": [
+        10.476028,
+        7.4575415
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-221121",
+      "name": "Nasarawan Doya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Makarfi",
+      "ward": "Nassarawan Doya",
+      "address": "PRIMARY HEALTH CARE NASARAWAN DOYA",
+      "pos": [
+        11.249911,
+        7.9065886
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-498398",
+      "name": "Nassarawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Nassarawa Ward",
+      "address": "No 12 MATARI ROAD KADUNA",
+      "pos": [
+        10.4703,
+        7.3989215
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-126026",
+      "name": "Nganduro Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Jaba",
+      "ward": "Fada",
+      "address": "HEALTH CLINIC NGANDURO",
+      "pos": [
+        9.4544764,
+        8.0019445
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-216116",
+      "name": "Numbu Bashayi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Nandu",
+      "address": "Primary Health Care Numbu",
+      "pos": [
+        9.2104769,
+        8.4369936
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-300200",
+      "name": "Pambegua Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Pambegua",
+      "address": "KADUNA ROAD OPPOSITE CENTRAL MOSQUE PANBEGUA",
+      "pos": [
+        10.680236,
+        8.2741556
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-184084",
+      "name": "Panhauya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Panhauya",
+      "address": "BEHIND AHMADU BELLO UNIVERSITY MAIN CAMPUS PANHAUYA, GIWA.",
+      "pos": [
+        11.120716,
+        7.6227427
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-486386",
+      "name": "PHC CHIKUN - F",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Chikun",
+      "address": "PRIMARY HEALTH CARE NEAR LEA PRIMARY SCHOOL CHIKUN VILLAGE",
+      "pos": [
+        10.272808,
+        7.10918
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Non-Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-561461",
+      "name": "PHC CLINIC JOS ROAD - F",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Shaba",
+      "address": "FF19 JOS ROAD",
+      "pos": [
+        10.51456,
+        7.4341617
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-428328",
+      "name": "PHC HAJ ASMAU AHMED MAKARFI - F",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Barnawa",
+      "address": "HAJIYA ASMA'U AHMED MAKARFI PRIMARY HEALTH CARE, MAI ADU'A ROAD, BARNAWA,KADUNA.",
+      "pos": [
+        10.481523,
+        7.4303088
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-195095",
+      "name": "PHC MARABAN KAJURU",
+      "type": "phc",
+      "lga": "Kajuru",
+      "ward": "Kufana",
+      "address": "BESIDE UBE PRIMARY SCHOOL, MARABAN KAJURU",
+      "pos": [
+        10.332515,
+        7.7103953
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-580480",
+      "name": "Primary health care mai burji",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Maiburiji",
+      "address": "Warrior street",
+      "pos": [
+        10.514327,
+        7.426477
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-438338",
+      "name": "PRIMARY HEALTH CARE TUDUN NUPAWA",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Tudun Nupawa",
+      "address": "M 3 BIMA ROAD TUDUN NUPAWA",
+      "pos": [
+        10.512774,
+        7.4170718
+      ],
+      "services": [
+        "anc"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-447347",
+      "name": "QAC - F",
+      "type": "hc",
+      "lga": "Kaduna South",
+      "ward": "Kakuri Hausa",
+      "address": "QUEEN AMINA COLLEGE P.O.BOX 211",
+      "pos": [
+        10.475059,
+        7.4229565
+      ],
+      "services": [
+        "growth"
+      ],
+      "hours": "0 hours daily · Seven days",
+      "status": "Status Unknown",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-565465",
+      "name": "Rafin Guza Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Kawo",
+      "address": "Rafi road rafin guza",
+      "pos": [
+        10.58397,
+        7.4718184
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-317217",
+      "name": "Rafin Magaji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Kufena",
+      "address": "RAFIN MAGAJI HEALTH CLINIC KUFENA",
+      "pos": [
+        11.106518,
+        7.6611032
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-292192",
+      "name": "Rahama Primary Health Care Clinic",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Rahama",
+      "address": "ALONG JOS TO ZARIA ROAD RAHAMA SOBA",
+      "pos": [
+        10.892054,
+        8.1274824
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-430330",
+      "name": "Ramin Kura Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Raminkura",
+      "address": "UNGWAN ASIBITI",
+      "pos": [
+        10.2793,
+        8.5447464
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-287187",
+      "name": "Richifa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Richifa",
+      "address": "KOFAR GIMBA OPPOSITE LGEA PRIMARY SCHOOL ZARIA",
+      "pos": [
+        11.164167,
+        7.9539967
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-502402",
+      "name": "Rido Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Rido",
+      "address": "OFF NNPC RIDO ROAD",
+      "pos": [
+        10.404692,
+        7.4966884
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-245145",
+      "name": "Rigachikun Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Rigachikun",
+      "address": "BAKIN KASUWA RIGACHIKUN",
+      "pos": [
+        10.641444,
+        7.4723005
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-193093",
+      "name": "Rimau Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kajuru",
+      "ward": "Rimau",
+      "address": "CLOSE TO AGOM ADARA HOME",
+      "pos": [
+        10.409156,
+        7.7575121
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-309209",
+      "name": "Rimin Doko Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Kaura",
+      "address": "PHC RIMIN DOKO KAURA",
+      "pos": [
+        11.046176,
+        7.7081742
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-501401",
+      "name": "Romi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Yelwa Ward",
+      "address": "PRIMARY HEALTH CARE, No. 1 CHURCH ROAD",
+      "pos": [
+        10.435236,
+        7.4205756
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-239139",
+      "name": "Sabon Birni Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Sabon Birni Ward",
+      "address": "PHC SABON BIRNI",
+      "pos": [
+        10.812147,
+        7.3037901
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-492392",
+      "name": "Sabon Gari Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Sabon Gari Ward",
+      "address": "PHC BURUKU STREET SABON GARI TIRKANIA",
+      "pos": [
+        10.460093,
+        7.3953252
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-179079",
+      "name": "Sabon Gari Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kudan",
+      "ward": "Sabon Gari",
+      "address": "PHC sabon gari hukunyi",
+      "pos": [
+        11.283305,
+        7.6636815
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-331231",
+      "name": "Sabon Gayan Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Kakau",
+      "address": "HEALTH CENTER SABON GAYAN",
+      "pos": [
+        10.317906,
+        7.3878284
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-500400",
+      "name": "Sabon Tasha Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Sabon Tasha",
+      "address": "PRIMARY HEALTH CARE SABON TASHA",
+      "pos": [
+        10.44758,
+        7.4509301
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "0 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-173073",
+      "name": "Sabzuro Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Sabzuro",
+      "address": "PRIMARY HEALTH CARE SAB-ZURO, KWOI",
+      "pos": [
+        9.4634581,
+        8.0100613
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-296196",
+      "name": "Sakadadi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Dogarawa",
+      "address": "MPHC S/DADI",
+      "pos": [
+        11.182595,
+        7.7222967
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-269169",
+      "name": "Sakwai Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kachia",
+      "ward": "Agunu",
+      "address": "SAKWAI HEALTH CLINIC",
+      "pos": [
+        9.937933,
+        7.9615941
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "growth"
+      ],
+      "hours": "8 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-332232",
+      "name": "Salmanduna Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zaria",
+      "ward": "Limancin Kona",
+      "address": "Salmanduna health clinic",
+      "pos": [
+        11.055009,
+        7.7003078
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-326226",
+      "name": "Samaru Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Samaru",
+      "address": "NO-95 SARKIN PAWA ROAD",
+      "pos": [
+        11.162073,
+        7.6482749
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child"
+      ],
+      "hours": "7 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-174074",
+      "name": "Samban Primary Health Care Center",
+      "type": "phc",
+      "lga": "Jaba",
+      "ward": "Samban",
+      "address": "Primary health clinic samban gida",
+      "pos": [
+        9.4545259,
+        8.0523386
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-164064",
+      "name": "Saminaka Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Saminaka",
+      "address": "COLLEGE ROAD SAMINAKA",
+      "pos": [
+        10.413274,
+        8.6910686
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-295195",
+      "name": "Saulawa-B Primary Health Care Center",
+      "type": "phc",
+      "lga": "Ikara",
+      "ward": "Saulawa",
+      "address": "PHC Saulawa",
+      "pos": [
+        11.335568,
+        8.1024914
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-291191",
+      "name": "SCIENCE SECONDARY SCHOOL CLINIC JAMPALAN",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Jampalam",
+      "address": "Jampalan",
+      "pos": [
+        11.170665,
+        8.2392864
+      ],
+      "services": [
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Non-Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-162062",
+      "name": "Sheka Primary Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Igabi",
+      "address": "SHEKA VILLAGE",
+      "pos": [
+        10.887533,
+        7.793263
+      ],
+      "services": [
+        "pnc",
+        "maternal",
+        "growth"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-188088",
+      "name": "Shika Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Shika",
+      "address": "ABOKI STREET SHIKA",
+      "pos": [
+        11.196634,
+        7.5690207
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-278178",
+      "name": "Sigau Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Lere",
+      "address": "KOFAN GARI OPPOSITE PRIMARY SCHOOL",
+      "pos": [
+        10.366702,
+        8.5640802
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-6905",
+      "name": "SOBA PRIMARY HEALTHCARE CENTRE",
+      "type": "phc",
+      "lga": "",
+      "ward": "",
+      "address": "",
+      "pos": [
+        0,
+        0
+      ],
+      "services": [],
+      "hours": "",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-200100",
+      "name": "Tantatu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kajuru",
+      "ward": "Tantattu",
+      "address": "PRIMARY HEALTHCARE, TANTATTU.",
+      "pos": [
+        10.263702,
+        7.6264362
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-166066",
+      "name": "Taro Taro Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Rigasa",
+      "address": "ABUJA ROAD RIGASA",
+      "pos": [
+        10.534088,
+        7.3943667
+      ],
+      "services": [
+        "anc",
+        "growth"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-141041",
+      "name": "Tashan Guga Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Danmahawayi",
+      "address": "HC TASHAN GUGA",
+      "pos": [
+        11.253312,
+        7.5500684
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "0 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-142042",
+      "name": "Tawatsu Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Shika",
+      "address": "ASIBITIN TAWATSU",
+      "pos": [
+        11.159328,
+        7.4997406
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-571471",
+      "name": "TBL CLINIC NARAYI - F",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Narayi",
+      "address": "TBL CLINIC HOSPITAL ROAD TUDUN MUNSIRA, NARAYI KADUNA",
+      "pos": [
+        10.472795,
+        7.4417315
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Non-Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-504404",
+      "name": "TBL Zango Road Primary Health Care Center",
+      "type": "hc",
+      "lga": "Kaduna South",
+      "ward": "Tudun Wada South",
+      "address": "YAN TULAWANE BEY ZANGO ROAD",
+      "pos": [
+        10.502654,
+        7.4084873
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-432332",
+      "name": "Television Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Television",
+      "address": "PHC TELEVISION GARAGE KADUNA SOUTH",
+      "pos": [
+        10.453184,
+        7.425107
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-261161",
+      "name": "Tsauni Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kachia",
+      "ward": "Kwaturu",
+      "address": "TSAUNI",
+      "pos": [
+        9.6726055,
+        8.0152388
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-146046",
+      "name": "Tsibiri Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Shika",
+      "address": "2KILOMETER UP NAPRI GATE SHIKA",
+      "pos": [
+        11.19303,
+        7.539269
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-495395",
+      "name": "Tudai Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Lazuru Tuddai",
+      "address": "PRIMARY HEALTH CENTER NEAR UNGUWAN SATI, TUDDAI",
+      "pos": [
+        10.307552,
+        8.6356745
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-310210",
+      "name": "Tudun Wada Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Tudun Wada",
+      "address": "Dandutse health clinic",
+      "pos": [
+        11.082561,
+        7.7197757
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-489389",
+      "name": "Tudun Wadan Kujama Primary Health Care Center",
+      "type": "phc",
+      "lga": "Chikun",
+      "ward": "Kujama",
+      "address": "PRIMARY HEALTHCARE, TUDUN WADA KUJAMA.",
+      "pos": [
+        10.47678,
+        7.635695
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-311211",
+      "name": "Tukur Tukur Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Tukur Tukur",
+      "address": "GONAR GANYE TUKUR TUKUR",
+      "pos": [
+        11.092229,
+        7.6974764
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-167067",
+      "name": "Tumbau Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Kerawa",
+      "address": "OFF ZARIA TO KADUNA ROAD TUMBAU, IGABI.",
+      "pos": [
+        10.941998,
+        7.6027985
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-143043",
+      "name": "Tumburku Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Giwa",
+      "ward": "Galadimawa",
+      "address": "TUMBURKU HEALTH CLINIC",
+      "pos": [
+        11.077619,
+        7.2868032
+      ],
+      "services": [
+        "pnc",
+        "child",
+        "growth"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-185085",
+      "name": "Turawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Kakangi",
+      "address": "TURAWA PHC",
+      "pos": [
+        11.179417,
+        7.4537182
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-283183",
+      "name": "Turawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Turawa",
+      "address": "Phc turawa",
+      "pos": [
+        11.078292,
+        8.067131
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-198098",
+      "name": "Turunku Primary Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Igabi",
+      "ward": "Turunku",
+      "address": "HC TURUNKU",
+      "pos": [
+        10.804341,
+        7.69874
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "growth"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-497397",
+      "name": "Udammi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Gure Kahugu",
+      "address": "UDAMI GURE",
+      "pos": [
+        10.329382,
+        8.4017429
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-125025",
+      "name": "Unguwan Barau Health Clininc",
+      "type": "hc",
+      "lga": "Ikara",
+      "ward": "Kurmin Kogi",
+      "address": "Anguwan barau,kurmin kogi,ikara",
+      "pos": [
+        11.1677,
+        8.1480494
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-423323",
+      "name": "Unguwan Bawa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Sabon Birnin",
+      "address": "Ungwan secondary school ungwan bawa",
+      "pos": [
+        10.435541,
+        8.6562967
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-334234",
+      "name": "Unguwan Boro Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Sabon Tasha",
+      "address": "Health clinic cementary road u/boro.",
+      "pos": [
+        10.455125,
+        7.4637833
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-566466",
+      "name": "Unguwan Dosa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Unguwan Dosa",
+      "address": "PHC UNGUWAN DOSA",
+      "pos": [
+        10.570214,
+        7.4601731
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-677577",
+      "name": "Unguwan Gwari Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kaduna North",
+      "ward": "Kawo",
+      "address": "VAHAMA CRESENT",
+      "pos": [
+        10.593123,
+        7.4509883
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-424324",
+      "name": "Unguwan Hayatu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Lere",
+      "ward": "Kudaru",
+      "address": "KADUNA ROAD ANGUWAN HAYATU",
+      "pos": [
+        10.511845,
+        8.4883099
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-138038",
+      "name": "Unguwan Jaba Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Unguwar Gabas",
+      "address": "PHC UNGUWAN JABA",
+      "pos": [
+        11.111012,
+        7.7424073
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-218118",
+      "name": "Unguwan Nungu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Bokana",
+      "address": "Primary Health Care Ungwar Nungu",
+      "pos": [
+        9.3462696,
+        8.6040306
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-557457",
+      "name": "Unguwan Rimi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Gabasawa",
+      "address": "NO1 SCHOOL ROAD UNGUWAN RIMI",
+      "pos": [
+        10.526689,
+        7.4624314
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-433333",
+      "name": "Unguwan Sanusi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna South",
+      "ward": "Unguwan Sanusi",
+      "address": "PHC MAGAJI CLOSE UNGUWAN SUNUSI",
+      "pos": [
+        10.52481,
+        7.4103003
+      ],
+      "services": [
+        "anc"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-579479",
+      "name": "Unguwan Sarki Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Unguwar Sarki",
+      "address": "No 3Marnona road unguwan sarki",
+      "pos": [
+        10.551071,
+        7.4476762
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-567467",
+      "name": "Unguwan Shanu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Unguwar Shanu",
+      "address": "UNGUWAR SHANU.",
+      "pos": [
+        10.546948,
+        7.4380398
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "6 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-108008",
+      "name": "Ungwan Jaba Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Unguwan Gaiya",
+      "address": "ANGWAN JABA",
+      "pos": [
+        9.7712097,
+        8.4245615
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-109009",
+      "name": "Ungwan Juju Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Unguwan Gaiya",
+      "address": "ANGUWAN JUJU",
+      "pos": [
+        9.7879286,
+        8.3758621
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-222122",
+      "name": "Wasa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sanga",
+      "ward": "Wasa",
+      "address": "Primary Health Care centre Wasa",
+      "pos": [
+        9.1839371,
+        8.1679249
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-263163",
+      "name": "Wawan Rafi Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Dan Alhaji",
+      "address": "SABON GARI, WAWAN RAFI , DAN ALHAJI LERE",
+      "pos": [
+        10.58901,
+        8.6244907
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-186086",
+      "name": "Wazata Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Wazata",
+      "address": "PHC WAZATA",
+      "pos": [
+        11.011022,
+        7.4922242
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal"
+      ],
+      "hours": "9 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-315215",
+      "name": "Wuciciri Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zaria",
+      "ward": "Wuciciri",
+      "address": "PRIMARY HEALTH CARE WUCICCIRI",
+      "pos": [
+        10.970485,
+        7.7794442
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-264164",
+      "name": "Wuroko Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kayarda",
+      "address": "ALONG SAMINAKA/JOS ROAD KAYARDA",
+      "pos": [
+        10.482892,
+        8.5903111
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-290190",
+      "name": "Yaji Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Kachia",
+      "ward": "Ankwa",
+      "address": "BEHIND CATHOLIC CHURCH YAJI",
+      "pos": [
+        9.7311468,
+        7.9128184
+      ],
+      "services": [
+        "anc",
+        "maternal",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Six days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-284184",
+      "name": "Yakasai Primary Health Care Center",
+      "type": "phc",
+      "lga": "Soba",
+      "ward": "Maigana",
+      "address": "Yakasai Jos Road",
+      "pos": [
+        11.052015,
+        7.8472967
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "10 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-187087",
+      "name": "Yakawada Primary Health Care Center",
+      "type": "phc",
+      "lga": "Giwa",
+      "ward": "Yakawada",
+      "address": "PHC YAKAWADA KANHAWA",
+      "pos": [
+        11.270539,
+        7.3939652
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "12 hours daily · Six days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-425325",
+      "name": "Yarkasuwa Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Lere",
+      "ward": "Kudaru",
+      "address": "YARKASUWA",
+      "pos": [
+        10.518005,
+        8.5105515
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-335235",
+      "name": "Yelwa Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Chikun",
+      "ward": "Yelwa Ward",
+      "address": "MAJEMIYA STRERT ANGWAN YELWA",
+      "pos": [
+        10.446969,
+        7.44031
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "14 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-201101",
+      "name": "Yelwan Makaranta Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Soba",
+      "ward": "Soba",
+      "address": "Yelwa north soba",
+      "pos": [
+        10.995284,
+        8.0150776
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Compromised"
+    },
+    {
+      "id": "hefa-327227",
+      "name": "Zabi Primary Health Care Center",
+      "type": "phc",
+      "lga": "Sabon Gari",
+      "ward": "Zabi",
+      "address": "P H C ZABI BEHIND PRIMARY SCHOOL ZABI",
+      "pos": [
+        11.147832,
+        7.7381849
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "7 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-568468",
+      "name": "Zakari Isa Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kaduna North",
+      "ward": "Dadi Riba",
+      "address": "Ibadan Street By Daura Road Dadi Riba, Kaduna.",
+      "pos": [
+        10.509188,
+        7.4320388
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-244144",
+      "name": "Zango Urban Primary Health Care Center",
+      "type": "phc",
+      "lga": "Zango Kataf",
+      "ward": "Zango Urban",
+      "address": "PRIMARY HEALTH CARE ZANGO URBAN OPPOSITE ISLAMIC SCHOOL CHAKAIKAI ZANGO",
+      "pos": [
+        9.8378801,
+        8.4034834
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-260160",
+      "name": "Zangon Aya Primary Health Care Center",
+      "type": "phc",
+      "lga": "Igabi",
+      "ward": "Zangon Aya",
+      "address": "ZANGON AYA PHC",
+      "pos": [
+        10.91486,
+        7.6623635
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "24 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-276176",
+      "name": "Zangon Danborno Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Sabon Gari",
+      "ward": "Dogarawa",
+      "address": "ZARGON DANBORNO HEALTH CLINIC",
+      "pos": [
+        11.184612,
+        7.7352042
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Five days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-365265",
+      "name": "Zuntu Primary Health Care Center",
+      "type": "phc",
+      "lga": "Kubau",
+      "ward": "Zuntu",
+      "address": "UNGUWAN LUNGU ZUNTU",
+      "pos": [
+        10.741788,
+        8.2340946
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "nutrition"
+      ],
+      "hours": "9 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    },
+    {
+      "id": "hefa-274174",
+      "name": "Zuturung Pama Primary Health Care Clinic",
+      "type": "hc",
+      "lga": "Zango Kataf",
+      "ward": "Zonkwa",
+      "address": "ZUTURUG VILLAGE",
+      "pos": [
+        9.7957087,
+        8.1886673
+      ],
+      "services": [
+        "anc",
+        "pnc",
+        "maternal",
+        "child",
+        "bf",
+        "growth",
+        "nutrition"
+      ],
+      "hours": "8 hours daily · Seven days",
+      "status": "Functional",
+      "security": "Non-Compromised"
+    }
+  ]
+}

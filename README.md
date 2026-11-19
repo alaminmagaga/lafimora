@@ -12,9 +12,9 @@ Language links: add `?lang=ha` or `?lang=en` to any page URL (e.g. `index.html?l
 
 | Document section | Where it lives |
 |---|---|
-| §7.1 AI health & nutrition assistant | `chat.html` — natural-language questions, source citations, "Explain more simply", glossary follow-ups, feedback, AI disclosure |
+| §7.1 AI health & nutrition assistant | `chat.html` — full-height assistant UI: centred welcome + composer that glides to the bottom on first message, "thinking" state, streamed replies, source citations, "Explain more simply", glossary follow-ups, copy/feedback, New chat, AI disclosure. Home page ask box hands off via `chat.html?ask=…` (topic pages use `?topic=…&q=…`) |
 | §7.1 A–C topic coverage | `topics.html` / `topic.html` — 12 topics in 3 groups: Maternal health, Maternal nutrition, Infant & young child nutrition |
-| §7.1G WhatsApp channel | "Chat on WhatsApp — Coming soon" on Home, Chat and footer |
+| §7.1G WhatsApp channel | "Chat on WhatsApp — Coming soon" in the footer and the Home feature list |
 | §7.2 Service discovery | `facilities.html` — search by name, service (full §7.2B list) and Kaduna LGA; "Near me" proximity sort |
 | §7.2C Facility profiles | `facility.html` — type, MCH vs nutrition services, address, hours, phone, last-verified date, map/directions placeholder |
 | §7.2E AI-assisted facility search | Ask "Where can I get antenatal care?" in chat → facility cards in the conversation |

@@ -61,13 +61,29 @@ const ICONS = {
   leaf: 'M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10zM2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12',
   smile: 'M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01',
   users: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75',
-  map: 'M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4zM8 2v16M16 6v16'
+  map: 'M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4zM8 2v16M16 6v16',
+  copy: 'M9 9h11v11H9zM5 15H4V4h11v1',
+  thumbUp: 'M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3',
+  thumbDown: 'M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zM17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17',
+  plus: 'M12 5v14M5 12h14',
+  arrowUp: 'M12 19V5M5 12l7-7 7 7',
+  arrowDown: 'M12 5v14M19 12l-7 7-7-7'
 };
 const icon = (name, cls = '') => `<svg class="icon ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${ICONS[name] || ''}"/></svg>`;
+const brandMark = (cls = '') => `<img class="brand-symbol ${cls}" src="assets/brand/lafimora-mark.png" alt="" width="1024" height="1024">`;
 
-/* ---------- Images (illustrative; replace with licensed local photos before launch) ---------- */
-const IMAGES = { mother: 'photo-1515488042361-ee00e0ddd4e4', baby: 'photo-1491013516836-7db643ee125a', nurse: 'photo-1576091160399-112ba8d25d1d', family: 'photo-1511895426328-dc8714191300', food: 'photo-1490645935967-10de6ba17061', child: 'photo-1503919005314-30d93d07d823', clinic: 'photo-1538108149393-fbbd81895907', care: 'photo-1551076805-e1869033e561' };
-const photo = (id, width = 800) => `https://images.unsplash.com/${IMAGES[id] || id}?auto=format&fit=crop&w=${width}&q=70`;
+/* ---------- Images (local, project-bound Northern Nigerian editorial photography) ---------- */
+const IMAGES = {
+  mother: 'mother-baby.webp',
+  baby: 'mother-baby.webp',
+  nurse: 'antenatal-care.webp',
+  family: 'mother-baby.webp',
+  food: 'family-nutrition.webp',
+  child: 'child-clinic.webp',
+  clinic: 'antenatal-care.webp',
+  care: 'child-clinic.webp'
+};
+const photo = (id) => `assets/images/${IMAGES[id] || id}`;
 
 /* ---------- Services taxonomy (document §7.2B) ---------- */
 const SERVICES = {
@@ -85,13 +101,14 @@ const SERVICE_CATS = {
 };
 const FACILITY_TYPES = {
   phc: { en: 'Primary health centre', ha: 'Cibiyar lafiya matakin farko' },
+  hc: { en: 'Primary health clinic', ha: 'Ƙaramar cibiyar lafiya matakin farko' },
   gh: { en: 'General hospital', ha: 'Babban asibiti' },
   mch: { en: 'Maternal & child health clinic', ha: 'Asibitin uwa da yara' }
 };
 const LGAS = ['Birnin Gwari', 'Chikun', 'Giwa', 'Igabi', 'Ikara', 'Jaba', "Jema'a", 'Kachia', 'Kaduna North', 'Kaduna South', 'Kagarko', 'Kajuru', 'Kaura', 'Kauru', 'Kubau', 'Kudan', 'Lere', 'Makarfi', 'Sabon Gari', 'Sanga', 'Soba', 'Zangon Kataf', 'Zaria'];
 
 /* Fictional demonstration records — not real providers. Coordinates are rough LGA-level points for the proximity demo only. */
-const FACILITIES = [
+let FACILITIES = [
   { id: 'demo-a', name: 'Sample Primary Health Centre A', type: 'phc', lga: 'Kaduna North', services: ['anc', 'maternal', 'nutrition', 'growth'], pos: [10.55, 7.44] },
   { id: 'demo-b', name: 'Sample General Hospital B', type: 'gh', lga: 'Zaria', services: ['anc', 'pnc', 'maternal', 'child', 'bf'], pos: [11.08, 7.71] },
   { id: 'demo-c', name: 'Sample Health Centre C', type: 'phc', lga: 'Chikun', services: ['growth', 'nutrition', 'child'], pos: [10.42, 7.40] },
@@ -99,6 +116,20 @@ const FACILITIES = [
   { id: 'demo-e', name: 'Sample Primary Health Centre E', type: 'phc', lga: 'Igabi', services: ['anc', 'pnc', 'bf'], pos: [10.70, 7.35] },
   { id: 'demo-f', name: 'Sample Primary Health Centre F', type: 'phc', lga: 'Sabon Gari', services: ['maternal', 'child', 'nutrition'], pos: [11.12, 7.73] }
 ];
+let facilitySource = { live: false, name: 'Offline examples', censusYear: null, syncedAt: null };
+
+async function loadFacilityData() {
+  try {
+    const response = await fetch('data/facilities.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`Facility data returned HTTP ${response.status}`);
+    const snapshot = await response.json();
+    if (!Array.isArray(snapshot.facilities) || !snapshot.facilities.length) throw new Error('Facility data is empty');
+    FACILITIES = snapshot.facilities;
+    facilitySource = { ...snapshot.source, live: true };
+  } catch (error) {
+    console.warn('Using offline facility examples:', error);
+  }
+}
 
 /* ---------- Topic groups (document §7.1 A, B, C) ---------- */
 const GROUPS = {
@@ -402,14 +433,17 @@ function reviewNote() {
 /* ---------- Layout ---------- */
 function layout() {
   document.documentElement.lang = lang;
+  // Desktop: logo = Home, and "Ask Lafimora" is the single call-to-action button (no duplicate link).
+  // Mobile drawer: Home and Ask Lafimora are added back as plain links (the CTA button is hidden there).
   const nav = [
-    ['home', 'index.html', { en: 'Home', ha: 'Gida' }],
+    ['home', 'index.html', { en: 'Home', ha: 'Gida' }, true],
+    ['chat', 'chat.html', { en: 'Ask Lafimora', ha: 'Tambayi Lafimora' }, true],
     ['topics', 'topics.html', { en: 'Health topics', ha: 'Batutuwan lafiya' }],
     ['facilities', 'facilities.html', { en: 'Find a facility', ha: 'Nemo cibiyar lafiya' }],
-    ['chat', 'chat.html', { en: 'Ask Lafimora', ha: 'Tambayi Lafimora' }],
     ['about', 'about.html', { en: 'About', ha: 'Game da mu' }]
   ];
   const current = page === 'topic' ? 'topics' : page === 'facility' ? 'facilities' : page;
+  document.body.classList.add(`page-${page}`);
   $('#app').innerHTML = `
   <a class="skip-link" href="#main">${L('Skip to main content', 'Tsallaka zuwa babban bayani')}</a>
   <div class="topbar"><div class="wrap topbar-inner">
@@ -417,16 +451,16 @@ function layout() {
     <a class="topbar-emergency" href="tel:112">${icon('phone')}${t(dict.emergency)}</a>
   </div></div>
   <header class="site-header"><nav class="wrap nav" aria-label="${L('Main navigation', 'Babban menu')}">
-    <a href="index.html" class="brand" aria-label="Lafimora — ${L('Home', 'Gida')}"><span class="brand-mark">${icon('heart')}</span><span class="brand-name">Lafimora</span></a>
+    <a href="index.html" class="brand" aria-label="Lafimora — ${L('Home', 'Gida')}">${brandMark('brand-mark')}<span class="brand-name">Lafimora</span></a>
     <div class="nav-links" id="nav-links">
-      ${nav.map(([id, url, label]) => `<a href="${url}" class="nav-link"${current === id ? ' aria-current="page"' : ''}>${t(label)}</a>`).join('')}
+      ${nav.map(([id, url, label, mobileOnly]) => `<a href="${url}" class="nav-link${mobileOnly ? ' mobile-only' : ''}"${current === id ? ' aria-current="page"' : ''}>${t(label)}</a>`).join('')}
     </div>
     <div class="nav-actions">
       <div class="lang-switch" role="group" aria-label="Language / Harshe">
         <button type="button" data-lang="en" aria-pressed="${lang === 'en'}"><span class="long">English</span><span class="short">EN</span></button>
         <button type="button" data-lang="ha" aria-pressed="${lang === 'ha'}"><span class="long">Hausa</span><span class="short">HA</span></button>
       </div>
-      <a class="btn btn-primary btn-sm nav-cta" href="chat.html">${icon('chat')}${L('Ask a question', 'Yi tambaya')}</a>
+      <a class="btn btn-primary btn-sm nav-cta" href="chat.html"${page === 'chat' ? ' aria-current="page"' : ''}>${icon('chat')}${L('Ask Lafimora', 'Tambayi Lafimora')}</a>
       <button type="button" class="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="${L('Open menu', 'Buɗe menu')}">${icon('menu')}</button>
     </div>
   </nav></header>
@@ -434,7 +468,7 @@ function layout() {
   <footer class="site-footer"><div class="wrap">
     <div class="footer-grid">
       <div>
-        <a class="brand brand-light" href="index.html"><span class="brand-mark">${icon('heart')}</span><span class="brand-name">Lafimora</span></a>
+        <a class="brand brand-light" href="index.html">${brandMark('brand-mark')}<span class="brand-name">Lafimora</span></a>
         <p class="footer-text">${L('An AI-powered maternal and child health information and healthcare service navigation platform, developed by YandyTech Community through SolutionLab.', 'Dandalin bayanan lafiyar uwa da yara da neman cibiyoyin lafiya mai amfani da AI, wanda YandyTech Community ke haɓakawa ta SolutionLab.')}</p>
         ${whatsappButton('btn-sm')}
       </div>
@@ -488,7 +522,7 @@ function languageChooser() {
   el.setAttribute('aria-modal', 'true');
   el.setAttribute('aria-labelledby', 'lang-modal-title');
   el.innerHTML = `<div class="lang-modal-card">
-    <span class="brand-mark brand-mark-lg">${icon('heart')}</span>
+    ${brandMark('brand-mark brand-mark-lg')}
     <h2 id="lang-modal-title">Zaɓi harshe · Choose your language</h2>
     <p>Kuna iya canza shi a kowane lokaci. · You can change this at any time.</p>
     <div class="lang-options">
@@ -515,14 +549,19 @@ function renderHome() {
   $('#main').innerHTML = `
   <section class="hero"><div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="chip">${icon('globe')}Hausa · English</span>
       <h1>${L('Trusted health information for mothers and children.', 'Ingantattun bayanan lafiya ga uwa da yara.')}</h1>
       <p class="lead">${L('Ask questions about pregnancy, breastfeeding and child nutrition in Hausa or English — and find healthcare services in Kaduna State.', 'Yi tambayoyi kan juna biyu, shayarwa da abincin yara a Hausa ko Turanci — kuma nemo cibiyoyin lafiya a Jihar Kaduna.')}</p>
-      <div class="action-cards">
-        <a class="action-card" href="chat.html"><span class="action-icon">${icon('chat')}</span><span class="action-text"><strong>${L('Ask a health question', 'Yi tambaya kan lafiya')}</strong><small>${L('AI assistant using approved sources', 'Mataimakin AI daga ingantattun madogara')}</small></span>${icon('arrowRight', 'action-arrow')}</a>
-        <a class="action-card" href="facilities.html"><span class="action-icon action-icon-alt">${icon('pin')}</span><span class="action-text"><strong>${L('Find a health facility', 'Nemo cibiyar lafiya')}</strong><small>${L('Search by service or area', 'Bincika ta hidima ko yanki')}</small></span>${icon('arrowRight', 'action-arrow')}</a>
+      <form class="hero-ask" action="chat.html" method="get" role="search">
+        <label for="hero-ask-input" class="sr-only">${L('Ask Lafimora a question', 'Tambayi Lafimora')}</label>
+        <span class="hero-ask-icon">${brandMark('hero-ask-logo')}</span>
+        <input id="hero-ask-input" name="ask" maxlength="500" autocomplete="off" required placeholder="${esc(L('Ask Lafimora anything about mother & child health…', 'Tambayi Lafimora kan lafiyar uwa da yara…'))}">
+        <button type="submit" class="hero-ask-send" aria-label="${esc(L('Ask', 'Tambaya'))}">${icon('arrowUp')}</button>
+      </form>
+      <div class="hero-try">
+        <span>${L('Try:', 'Gwada:')}</span>
+        ${[['antenatal', 0], ['breastfeeding', 1], ['complementary-feeding', 0]].map(([s, i]) => `<a class="chip-btn" href="chat.html?topic=${s}&amp;q=${i}">${esc(t(topicBySlug(s).questions[i]))}</a>`).join('')}
       </div>
-      ${whatsappButton()}
+      <a class="hero-alt" href="facilities.html"><span class="action-icon action-icon-alt">${icon('pin')}</span><span class="action-text"><strong>${L('Find a health facility', 'Nemo cibiyar lafiya')}</strong><small>${L('Search Kaduna State facilities by service or area', 'Bincika cibiyoyin Jihar Kaduna ta hidima ko yanki')}</small></span>${icon('arrowRight')}</a>
     </div>
     <div class="hero-media">
       <img src="${photo('mother', 1000)}" alt="${esc(L('Illustrative photo of a mother holding her baby', 'Hoton misali na uwa riƙe da jaririnta'))}" fetchpriority="high">
@@ -701,8 +740,9 @@ function distanceKm(a, b) {
 }
 
 function facilityCard(f, opts = {}) {
-  const dist = userPos ? ` · ≈ ${Math.round(distanceKm(userPos, f.pos))} km ${L('(demo)', '(gwaji)')}` : '';
+  const dist = userPos && f.pos ? ` · ≈ ${Math.round(distanceKm(userPos, f.pos))} km` : '';
   const services = opts.service ? [opts.service, ...f.services.filter((s) => s !== opts.service)] : f.services;
+  const statusClass = f.status === 'Functional' ? 'badge-verified' : f.status === 'Non-Functional' ? 'badge-alert' : 'badge-demo';
   return `<article class="facility-card${opts.compact ? ' is-compact' : ''}">
     <div class="fc-head">
       <div>
@@ -710,17 +750,17 @@ function facilityCard(f, opts = {}) {
         <h3><a href="facility.html?id=${f.id}">${esc(f.name)}</a></h3>
         <p class="fc-meta">${icon('pin')}${esc(f.lga)} LGA, ${L('Kaduna State', 'Jihar Kaduna')}${dist}</p>
       </div>
-      <span class="badge badge-demo">${L('Demo', 'Gwaji')}</span>
+      <span class="badge ${statusClass}">${esc(L(f.status || 'Status unknown', f.status === 'Functional' ? 'Cibiyar na aiki' : f.status === 'Non-Functional' ? 'Cibiyar ba ta aiki' : 'Ba a san halin aiki ba'))}</span>
     </div>
     <div class="pill-row">${services.map((s) => servicePill(s, s === opts.service)).join('')}</div>
     ${opts.compact ? '' : `<dl class="fc-facts">
-      <div><dt>${icon('clock')}${L('Opening hours', 'Lokutan aiki')}</dt><dd>${L('Not yet verified', 'Ba a tabbatar ba tukuna')}</dd></div>
-      <div><dt>${icon('checkCircle')}${L('Last verified', 'Tabbatarwa ta ƙarshe')}</dt><dd>${L('Not verified — demo record', 'Ba a tabbatar ba — misali')}</dd></div>
+      <div><dt>${icon('clock')}${L('Recorded schedule', 'Lokutan da aka rubuta')}</dt><dd>${esc(f.hours || L('Not listed', 'Ba a lissafa ba'))}</dd></div>
+      <div><dt>${icon('checkCircle')}${L('Data source', 'Madogarar bayanai')}</dt><dd>${facilitySource.live ? 'Kaduna State HEFA · 2018 census' : L('Offline example', 'Misalin da ke na’ura')}</dd></div>
     </dl>
-    <p class="fc-caution">${icon('info')}${L('Opening status not confirmed — contact the facility before you go.', 'Ba a tabbatar da buɗewa ba — a tuntuɓi cibiyar kafin a je.')}</p>`}
+    <p class="fc-caution">${icon('info')}${L('Confirm services and opening status before you travel; directory information may have changed.', 'A tabbatar da ayyuka da lokacin buɗewa kafin tafiya; bayanan kundin na iya canzawa.')}</p>`}
     <div class="fc-actions">
       <a class="btn btn-secondary btn-sm" href="facility.html?id=${f.id}">${L('View details', 'Duba bayanai')}${icon('arrowRight')}</a>
-      ${opts.compact ? '' : `<span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true" title="${esc(L('Available once the location is verified', 'Za a samu bayan an tabbatar da wuri'))}">${icon('directions')}${L('Directions', 'Kwatance')}</span>`}
+      ${opts.compact ? '' : f.pos ? `<a class="btn btn-ghost btn-sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=${encodeURIComponent(`${f.pos[0]},${f.pos[1]}`)}" target="_blank" rel="noopener">${icon('directions')}${L('Directions', 'Kwatance')}</a>` : `<span class="btn btn-ghost btn-sm is-disabled" aria-disabled="true">${icon('directions')}${L('No coordinates', 'Babu wurin taswira')}</span>`}
     </div>
   </article>`;
 }
@@ -740,7 +780,7 @@ function renderFacilities() {
     <p class="lead">${L('Search for facilities offering maternal, child health and nutrition services by service or by area.', 'Nemo cibiyoyin da ke ba da ayyukan lafiyar uwa, yara da abinci ta hidima ko ta yanki.')}</p>
   </div></section>
   <div class="wrap">
-    <div class="callout callout-warning">${icon('alert')}<div><strong>${L('Demonstration directory.', 'Kundin gwaji.')}</strong> ${L('All facilities below are fictional examples. Do not use them to make healthcare decisions. The live directory will show only verified facilities and confirmed services.', 'Duk cibiyoyin da ke ƙasa misalai ne kawai. Kada a yi amfani da su wajen yanke shawarar lafiya. Ainihin kundin zai nuna cibiyoyin da aka tabbatar kawai.')}</div></div>
+    <div class="callout callout-info">${icon('info')}<div><strong>${facilitySource.live ? L('Kaduna State HEFA directory.', 'Kundin HEFA na Jihar Kaduna.') : L('Offline directory.', 'Kundin da ke na’ura.')}</strong> ${facilitySource.live ? L('These government primary-care listings come from the official Kaduna Health Facility Analytics directory and its 2018 facility census. Services and hours are historical records; confirm directly before travelling.', 'Waɗannan cibiyoyin gwamnati sun fito daga kundin Health Facility Analytics na Kaduna da ƙidayar cibiyoyi ta 2018. Ayyuka da lokuta bayanan tarihi ne; a tabbatar kafin tafiya.') : L('The official directory could not be loaded, so sample records are shown temporarily.', 'Ba a iya loda kundin hukuma ba, don haka ana nuna misalai na ɗan lokaci.') } ${facilitySource.live ? `<a class="text-link" href="${facilitySource.url}" target="_blank" rel="noopener">${L('View official source', 'Duba madogarar hukuma')}${icon('arrowRight')}</a>` : ''}</div></div>
     <form class="filter-panel" id="filters" role="search" aria-label="${L('Search facilities', 'Bincika cibiyoyi')}">
       <div class="field field-grow">
         <label for="f-q">${L('Facility name', 'Sunan cibiya')}</label>
@@ -766,9 +806,10 @@ function renderFacilities() {
   const q = $('#f-q'); const svc = $('#f-service'); const lga = $('#f-lga');
   function apply() {
     const term = q.value.trim().toLowerCase();
-    let list = FACILITIES.filter((f) => (!term || f.name.toLowerCase().includes(term)) && (!svc.value || f.services.includes(svc.value)) && (!lga.value || f.lga === lga.value));
-    if (userPos) list = [...list].sort((a, b) => distanceKm(userPos, a.pos) - distanceKm(userPos, b.pos));
-    $('#f-count').textContent = L(`${list.length} of ${FACILITIES.length} demonstration facilities`, `${list.length} daga cikin cibiyoyin gwaji ${FACILITIES.length}`);
+    let list = FACILITIES.filter((f) => (!term || [f.name, f.address, f.ward, f.lga].some((value) => String(value || '').toLowerCase().includes(term))) && (!svc.value || f.services.includes(svc.value)) && (!lga.value || f.lga === lga.value));
+    if (userPos) list = [...list].sort((a, b) => (a.pos ? distanceKm(userPos, a.pos) : Infinity) - (b.pos ? distanceKm(userPos, b.pos) : Infinity));
+    else list = [...list].sort((a, b) => (a.status === 'Functional' ? -1 : 0) - (b.status === 'Functional' ? -1 : 0) || a.name.localeCompare(b.name));
+    $('#f-count').textContent = L(`${list.length} of ${FACILITIES.length} primary-care facilities`, `${list.length} daga cikin cibiyoyin lafiya ${FACILITIES.length}`);
     $('#f-reset').hidden = !(term || svc.value || lga.value || userPos);
     $('#f-results').innerHTML = list.length ? list.map((f) => facilityCard(f, { service: svc.value })).join('')
       : `<div class="empty-state">${icon('search')}<h3>${L('No facilities match your search', 'Babu cibiyar da ta dace da bincikenku')}</h3><p>${L('Try another service or area, or clear the filters.', 'Gwada wata hidima ko yanki, ko a share zaɓuɓɓuka.')}</p></div>`;
@@ -788,7 +829,7 @@ function renderFacilities() {
     navigator.geolocation.getCurrentPosition((pos) => {
       userPos = [pos.coords.latitude, pos.coords.longitude];
       $('#f-near').classList.add('is-active');
-      msg.textContent = L('Sorted by approximate distance using demo coordinates. Your location was not stored.', 'An tsara ta kusanci da wurare na gwaji. Ba a ajiye wurinku ba.');
+      msg.textContent = L('Sorted by approximate distance using published HEFA coordinates. Your location was not stored.', 'An tsara ta kusanci da wuraren da HEFA ta wallafa. Ba a ajiye wurinku ba.');
       apply();
     }, () => {
       msg.textContent = L('Location permission was not given. You can choose an area (LGA) instead.', 'Ba a ba da izinin wuri ba. Kuna iya zaɓar yanki (ƙaramar hukuma).');
@@ -810,10 +851,10 @@ function renderFacility() {
     <nav class="breadcrumb" aria-label="${L('Breadcrumb', 'Hanyar shafi')}"><a href="facilities.html">${L('Find a facility', 'Nemo cibiyar lafiya')}</a><span aria-hidden="true">/</span><span aria-current="page">${esc(f.name)}</span></nav>
     <section class="facility-header">
       <span class="fc-type">${icon('building')}${t(FACILITY_TYPES[f.type])}</span>
-      <h1>${esc(f.name)} <span class="badge badge-demo">${L('Demo', 'Gwaji')}</span></h1>
-      <p class="fc-meta">${icon('pin')}${esc(f.lga)} LGA, ${L('Kaduna State', 'Jihar Kaduna')}</p>
+      <h1>${esc(f.name)} <span class="badge ${f.status === 'Functional' ? 'badge-verified' : 'badge-demo'}">HEFA</span></h1>
+      <p class="fc-meta">${icon('pin')}${esc(f.ward ? `${f.ward} Ward, ` : '')}${esc(f.lga)} LGA, ${L('Kaduna State', 'Jihar Kaduna')}</p>
     </section>
-    <div class="callout callout-warning">${icon('alert')}<div><strong>${L('Fictional example.', 'Misali ne kawai.')}</strong> ${L('This is not a real provider. Do not travel to it or rely on the services shown.', 'Wannan ba ainihin cibiya ba ce. Kada a je ko a dogara da ayyukan da aka nuna.')}</div></div>
+    <div class="callout callout-warning">${icon('alert')}<div><strong>${L('Confirm before travelling.', 'A tabbatar kafin tafiya.')}</strong> ${L('This facility is listed by Kaduna State HEFA, but its recorded services, hours and functionality may have changed since collection.', 'HEFA ta Jihar Kaduna ta lissafa wannan cibiya, amma ayyuka, lokuta da yanayin aiki na iya canzawa tun lokacin tattara bayanai.')}</div></div>
     <div class="detail-layout">
       <div class="detail-main">
         <section class="panel">
@@ -825,30 +866,38 @@ function renderFacility() {
         </section>
         <section class="panel">
           <h2 class="h3">${L('Location', 'Wuri')}</h2>
-          <div class="map-placeholder">${icon('map')}<p>${L('A map and directions will appear here once the facility location is verified.', 'Taswira da kwatance za su bayyana a nan bayan an tabbatar da wurin cibiyar.')}</p></div>
+          <div class="map-placeholder">${icon('map')}<p>${f.pos ? L('Use the published HEFA coordinates to open directions. Confirm the destination locally before travelling.', 'Yi amfani da wurin da HEFA ta wallafa don buɗe kwatance. A tabbatar da wurin a gida kafin tafiya.') : L('HEFA does not provide coordinates for this record.', 'HEFA ba ta bayar da wurin taswira ga wannan bayanin ba.')}</p>${f.pos ? `<a class="btn btn-secondary btn-sm" href="https://www.google.com/maps/search/?api=1&amp;query=${encodeURIComponent(`${f.pos[0]},${f.pos[1]}`)}" target="_blank" rel="noopener">${icon('map')}${L('Open map', 'Buɗe taswira')}</a>` : ''}</div>
         </section>
       </div>
       <aside class="panel detail-aside">
         <h2 class="h3">${L('Facility details', 'Bayanan cibiya')}</h2>
         <dl class="detail-list">
-          <div><dt>${icon('pin')}${L('Address', 'Adireshi')}</dt><dd>${L('Not verified', 'Ba a tabbatar ba')}</dd></div>
-          <div><dt>${icon('clock')}${L('Opening hours', 'Lokutan aiki')}</dt><dd>${L('Not verified', 'Ba a tabbatar ba')}</dd></div>
+          <div><dt>${icon('pin')}${L('Recorded address', 'Adireshin da aka rubuta')}</dt><dd>${esc(f.address || L('Not listed', 'Ba a lissafa ba'))}</dd></div>
+          <div><dt>${icon('clock')}${L('Recorded schedule', 'Lokutan da aka rubuta')}</dt><dd>${esc(f.hours || L('Not listed', 'Ba a lissafa ba'))}</dd></div>
           <div><dt>${icon('phone')}${L('Phone', 'Waya')}</dt><dd>${L('Not available', 'Babu')}</dd></div>
-          <div><dt>${icon('checkCircle')}${L('Last verified', 'Tabbatarwa ta ƙarshe')}</dt><dd>${L('Not verified — demo record', 'Ba a tabbatar ba — misali')}</dd></div>
+          <div><dt>${icon('checkCircle')}${L('HEFA status', 'Matsayin HEFA')}</dt><dd>${esc(f.status || L('Unknown', 'Ba a sani ba'))}</dd></div>
+          <div><dt>${icon('shield')}${L('Security status', 'Matsayin tsaro')}</dt><dd>${esc(f.security || L('Unknown', 'Ba a sani ba'))}</dd></div>
+          <div><dt>${icon('book')}${L('Source', 'Madogara')}</dt><dd><a class="text-link" href="${facilitySource.url || 'https://directory.hefa.kdbs.ng/'}" target="_blank" rel="noopener">Kaduna State HEFA · 2018</a></dd></div>
         </dl>
         <div class="btn-stack">
-          <span class="btn btn-primary is-disabled" aria-disabled="true">${icon('directions')}${L('Get directions', 'Samu kwatance')}</span>
+          ${f.pos ? `<a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=${encodeURIComponent(`${f.pos[0]},${f.pos[1]}`)}" target="_blank" rel="noopener">${icon('directions')}${L('Get directions', 'Samu kwatance')}</a>` : `<span class="btn btn-primary is-disabled" aria-disabled="true">${icon('directions')}${L('Directions unavailable', 'Babu kwatance')}</span>`}
           <span class="btn btn-secondary is-disabled" aria-disabled="true">${icon('phone')}${L('Call facility', 'Kira cibiya')}</span>
         </div>
         <p class="fc-caution">${icon('info')}${L('Lafimora does not book appointments or make referrals. Contact the facility directly before visiting.', 'Lafimora ba ta ɗaukar alƙawari ko tura marasa lafiya. A tuntuɓi cibiyar kai tsaye kafin ziyara.')}</p>
-        <a class="text-link" href="chat.html">${L('Ask Lafimora about these services', 'Tambayi Lafimora game da waɗannan ayyuka')}${icon('arrowRight')}</a>
+        <a class="text-link" href="chat.html${f.services[0] ? `?topic=${(TOPICS.find((tp) => tp.service === f.services[0]) || TOPICS[1]).slug}` : ''}">${L('Ask Lafimora about these services', 'Tambayi Lafimora game da waɗannan ayyuka')}${icon('arrowRight')}</a>
       </aside>
     </div>
   </div>`;
 }
 
-/* ---------- Chat (document §7.1 D–G, §7.2E, §9.5, §10.3, §10.6) ---------- */
-const chat = { msgs: [], lastTopic: null };
+/* ---------- Chat (document §7.1 D–G, §7.2E, §9.5, §10.3, §10.6) ----------
+   Conversational layout in the style of current AI assistants:
+   - Empty state: centred welcome, composer and suggestion cards.
+   - First message: the composer glides to the bottom (FLIP animation) and the thread opens.
+   - Replies show a "thinking" state, then stream in word by word; sources and actions fade in after. */
+const chat = { msgs: [], lastTopic: null, busy: false, paramsUsed: false, stick: true };
+let msgId = 0;
+let streamTimer = null;
 
 const EMERGENCY_EN = /\b(bleed(ing)?|blood|convuls\w*|seizures?|fits?|fitting|unconscious|faint(ed|ing)?|not breathing|can'?t breathe|difficulty breathing|hard to breathe|severe (headache|pain|bleeding)|blurred vision|high fever|fever|water (has )?broken?|not moving|not feeding|stopped feeding|chest pain|emergency)\b/i;
 const EMERGENCY_HA = /(zubar jini|\bjini\b|farfa[ɗd]iya|jijjiga|\bsuma\b|zazza[ɓb]i|numfashi|ciwon kai mai tsanani|ciwo mai tsanani|ba ya motsi|ba ta motsi|baya motsi|gaggawa|ruwan haihuwa)/i;
@@ -879,8 +928,16 @@ const TOPIC_WORDS = [
 ];
 const match = (rules, text) => (rules.find(([, re]) => re.test(text)) || [])[0] || null;
 
+const SUGGESTIONS = [
+  { icon: 'heart', title: { en: 'Pregnancy', ha: 'Juna biyu' }, chip: { kind: 'ask', slug: 'antenatal', i: 0 } },
+  { icon: 'smile', title: { en: 'Breastfeeding', ha: 'Shayarwa' }, chip: { kind: 'ask', slug: 'breastfeeding', i: 0 } },
+  { icon: 'leaf', title: { en: 'Baby’s first foods', ha: 'Abincin farko na jariri' }, chip: { kind: 'ask', slug: 'complementary-feeding', i: 1 } },
+  { icon: 'pin', title: { en: 'Find care', ha: 'Nemo kulawa' }, chip: { kind: 'facility', service: 'anc' } }
+];
+
+function chipAttr(c) { return `data-chip='${esc(JSON.stringify(c))}'`; }
 function chipsHTML(chips) {
-  return `<div class="chips">${chips.map((c) => `<button type="button" class="chip-btn" data-chip='${esc(JSON.stringify(c))}'>${esc(chipLabel(c))}</button>`).join('')}</div>`;
+  return `<div class="chips">${chips.map((c) => `<button type="button" class="chip-btn" ${chipAttr(c)}>${esc(chipLabel(c))}</button>`).join('')}</div>`;
 }
 function chipLabel(c) {
   if (c.kind === 'ask') return t(topicBySlug(c.slug).questions[c.i || 0]);
@@ -890,32 +947,46 @@ function chipLabel(c) {
   return '';
 }
 
+function actionsHTML(m) {
+  const voted = m.feedback;
+  return `<div class="msg-actions">
+    <button type="button" class="icon-btn" data-copy="${m.id}" aria-label="${esc(L('Copy answer', 'Kwafi amsa'))}" title="${esc(L('Copy', 'Kwafi'))}">${icon('copy')}</button>
+    <button type="button" class="icon-btn${voted === 'yes' ? ' is-on' : ''}" data-feedback="${m.id}" data-value="yes" aria-pressed="${voted === 'yes'}" aria-label="${esc(L('Helpful', 'Ya taimaka'))}" title="${esc(L('Helpful', 'Ya taimaka'))}">${icon('thumbUp')}</button>
+    <button type="button" class="icon-btn${voted === 'no' ? ' is-on' : ''}" data-feedback="${m.id}" data-value="no" aria-pressed="${voted === 'no'}" aria-label="${esc(L('Not helpful', 'Bai taimaka ba'))}" title="${esc(L('Not helpful', 'Bai taimaka ba'))}">${icon('thumbDown')}</button>
+    ${voted ? `<span class="msg-thanks">${L('Thanks for your feedback', 'Mun gode da ra’ayinku')}</span>` : ''}
+  </div>`;
+}
+
 function botHTML(m) {
   const tp = m.slug ? topicBySlug(m.slug) : null;
   switch (m.kind) {
-    case 'intro':
-      return `<p>${L('Hello! I am <strong>Lafimora</strong>, an AI information assistant. I share general information about pregnancy, maternal and child health and nutrition, and I can help you find health facilities.', 'Sannu! Ni ce <strong>Lafimora</strong>, mataimakiyar bayanai ta AI. Ina ba da bayanan gaba ɗaya kan juna biyu, lafiyar uwa da yara da abinci, kuma zan iya taimaka muku nemo cibiyoyin lafiya.')}</p>
-        <p class="msg-note">${icon('info')}<span>${L('I cannot diagnose, prescribe medicine or replace a health worker. In an emergency, call 112 or go to the nearest health facility.', 'Ba zan iya gano cuta, rubuta magani ko maye gurbin ma’aikacin lafiya ba. A lokacin gaggawa, a kira 112 ko a je cibiyar lafiya mafi kusa.')}</span></p>
-        <p>${L('What would you like to know?', 'Me kuke son sani?')}</p>
-        ${chipsHTML([{ kind: 'ask', slug: 'antenatal', i: 0 }, { kind: 'ask', slug: 'breastfeeding', i: 1 }, { kind: 'ask', slug: 'complementary-feeding', i: 0 }, { kind: 'facility', service: 'anc' }])}`;
     case 'answer':
-      return `<p>${t(tp.answer)}</p>
-        <div class="msg-sources"><span class="msg-sources-title">${icon('book')}${L('Sources', 'Madogara')}</span><ul>${tp.sources.map((s) => `<li>${esc(SOURCES[s])}</li>`).join('')}</ul><span class="msg-sample">${L('Sample answer for demonstration · pending professional review', 'Amsar gwaji · ana jiran duba daga ƙwararru')}</span></div>
-        ${chipsHTML([{ kind: 'simple', slug: tp.slug }, { kind: 'term', slug: tp.slug }, { kind: 'facility', service: tp.service }])}
-        ${feedbackHTML(m)}`;
+      return `<div class="msg-text" data-stream><p>${t(tp.answer)}</p></div>
+        <div class="msg-extra">
+          <div class="msg-sources"><span class="msg-sources-title">${icon('book')}${L('Sources', 'Madogara')}</span><ul>${tp.sources.map((s) => `<li>${esc(SOURCES[s])}</li>`).join('')}</ul><span class="msg-sample">${L('Sample answer for demonstration · pending professional review', 'Amsar gwaji · ana jiran duba daga ƙwararru')}</span></div>
+          ${chipsHTML([{ kind: 'simple', slug: tp.slug }, { kind: 'term', slug: tp.slug }, { kind: 'facility', service: tp.service }])}
+          ${actionsHTML(m)}
+        </div>`;
     case 'simple':
-      return `<p>${t(tp.simple)}</p>${chipsHTML([{ kind: 'term', slug: tp.slug }, { kind: 'facility', service: tp.service }])}`;
+      return `<div class="msg-text" data-stream><p>${t(tp.simple)}</p></div><div class="msg-extra">${chipsHTML([{ kind: 'term', slug: tp.slug }, { kind: 'facility', service: tp.service }])}</div>`;
     case 'term':
-      return `<p><strong>${t(tp.term.word)}</strong> — ${t(tp.term.def)}</p>`;
+      return `<div class="msg-text" data-stream><p><strong>${t(tp.term.word)}</strong> — ${t(tp.term.def)}</p></div>`;
     case 'facilities': {
-      const list = FACILITIES.filter((f) => !m.service || f.services.includes(m.service)).slice(0, 3);
+      const list = FACILITIES.filter((f) => !m.service || f.services.includes(m.service))
+        .sort((a, b) => (b.status === 'Functional') - (a.status === 'Functional'))
+        .slice(0, 3);
       const intro = m.service
         ? L(`Here are facilities in the directory that list <strong>${esc(t(SERVICES[m.service]).toLowerCase())}</strong>:`, `Ga cibiyoyin da ke cikin kundin da ke ba da <strong>${esc(t(SERVICES[m.service]).toLowerCase())}</strong>:`)
         : L('Here are some facilities in the directory. You can filter by service or area:', 'Ga wasu cibiyoyi a cikin kundin. Kuna iya tacewa ta hidima ko yanki:');
-      return `<p>${intro}</p>
-        <div class="msg-facilities">${list.map((f) => facilityCard(f, { compact: true, service: m.service })).join('')}</div>
-        <a class="text-link" href="facilities.html${m.service ? `?service=${m.service}` : ''}">${L('See all in the directory', 'Duba duka a cikin kundin')}${icon('arrowRight')}</a>
-        <p class="msg-note">${icon('info')}<span>${L('These are fictional examples in this prototype. Opening status is not confirmed, and Lafimora does not book appointments — contact the facility directly.', 'Waɗannan misalai ne a wannan gwaji. Ba a tabbatar da buɗewa ba, kuma Lafimora ba ta ɗaukar alƙawari — a tuntuɓi cibiyar kai tsaye.')}</span></p>`;
+      const note = facilitySource.live
+        ? L('Listings come from the Kaduna State HEFA directory (2018 census). Services and opening status may have changed — contact the facility before you go. Lafimora does not book appointments.', 'Bayanan sun fito daga kundin HEFA na Jihar Kaduna (ƙidayar 2018). Ayyuka da lokacin buɗewa na iya canzawa — a tuntuɓi cibiyar kafin a je. Lafimora ba ta ɗaukar alƙawari.')
+        : L('These are offline examples. Opening status is not confirmed, and Lafimora does not book appointments — contact the facility directly.', 'Waɗannan misalai ne. Ba a tabbatar da buɗewa ba, kuma Lafimora ba ta ɗaukar alƙawari — a tuntuɓi cibiyar kai tsaye.');
+      return `<div class="msg-text" data-stream><p>${intro}</p></div>
+        <div class="msg-extra">
+          <div class="msg-facilities">${list.map((f) => facilityCard(f, { compact: true, service: m.service })).join('')}</div>
+          <a class="text-link" href="facilities.html${m.service ? `?service=${m.service}` : ''}">${L('See all in the directory', 'Duba duka a cikin kundin')}${icon('arrowRight')}</a>
+          <p class="msg-note">${icon('info')}<span>${note}</span></p>
+        </div>`;
     }
     case 'emergency':
       return `<div class="msg-emergency">
@@ -925,41 +996,129 @@ function botHTML(m) {
       </div>
       <p class="msg-note">${icon('info')}<span>${L('Lafimora cannot assess symptoms. A health worker needs to see the mother or child.', 'Lafimora ba za ta iya tantance alamun rashin lafiya ba. Dole ma’aikacin lafiya ya ga uwa ko yaro.')}</span></p>`;
     case 'fallback':
-      return `<p>${L('I could not find approved information for that question. I can help with maternal and child health and nutrition topics — for anything else, please ask a health worker.', 'Ban samu ingantaccen bayani kan wannan tambaya ba. Ina iya taimakawa kan lafiyar uwa da yara da abinci — don wani abu daban, a tambayi ma’aikacin lafiya.')}</p>
-        <p>${L('You could try:', 'Kuna iya gwada:')}</p>
-        ${chipsHTML([{ kind: 'ask', slug: 'pregnancy-nutrition', i: 0 }, { kind: 'ask', slug: 'postnatal', i: 0 }, { kind: 'ask', slug: 'warning-signs', i: 0 }, { kind: 'facility' }])}`;
+      return `<div class="msg-text" data-stream><p>${L('I could not find approved information for that question. I can help with maternal and child health and nutrition topics — for anything else, please ask a health worker. You could try:', 'Ban samu ingantaccen bayani kan wannan tambaya ba. Ina iya taimakawa kan lafiyar uwa da yara da abinci — don wani abu daban, a tambayi ma’aikacin lafiya. Kuna iya gwada:')}</p></div>
+        <div class="msg-extra">${chipsHTML([{ kind: 'ask', slug: 'pregnancy-nutrition', i: 0 }, { kind: 'ask', slug: 'postnatal', i: 0 }, { kind: 'ask', slug: 'warning-signs', i: 0 }, { kind: 'facility' }])}</div>`;
     default: return '';
   }
 }
 
-function feedbackHTML(m) {
-  if (m.feedback) return `<p class="msg-feedback done">${icon('check')}${L('Thank you for your feedback.', 'Mun gode da ra’ayinku.')}</p>`;
-  return `<div class="msg-feedback"><span>${L('Was this helpful?', 'Wannan ya taimaka?')}</span><button type="button" data-feedback="${m.id}" data-value="yes">${L('Yes', 'Ee')}</button><button type="button" data-feedback="${m.id}" data-value="no">${L('No', 'A’a')}</button></div>`;
-}
-
 function userText(m) { return m.text != null ? esc(m.text) : esc(chipLabel(m.chip)); }
 
+function msgHTML(m) {
+  return m.from === 'user'
+    ? `<div class="msg msg-user" data-id="${m.id}"><div class="bubble">${userText(m)}</div></div>`
+    : `<div class="msg msg-bot" data-id="${m.id}"><span class="msg-avatar" aria-hidden="true">${brandMark('msg-logo')}</span><div class="msg-body">${botHTML(m)}</div></div>`;
+}
+
+/* ----- scrolling ----- */
+const scroller = () => $('#chat-scroll');
+function keepBottom(force = false) {
+  const s = scroller();
+  if (s && (force || chat.stick)) s.scrollTop = s.scrollHeight;
+}
+function onThreadScroll() {
+  const s = scroller();
+  if (!s) return;
+  chat.stick = s.scrollHeight - s.scrollTop - s.clientHeight < 80;
+  $('#scroll-down')?.classList.toggle('is-visible', !chat.stick);
+}
+
+/* ----- rendering ----- */
 function drawMessages() {
+  clearTimeout(streamTimer);
   const box = $('#chat-messages');
   if (!box) return;
-  box.innerHTML = chat.msgs.map((m) => m.from === 'user'
-    ? `<div class="msg msg-user"><div class="bubble">${userText(m)}</div></div>`
-    : `<div class="msg msg-bot"><span class="avatar" aria-hidden="true">${icon('heart')}</span><div class="bubble">${botHTML(m)}</div></div>`).join('');
-  box.scrollTop = box.scrollHeight;
+  box.innerHTML = chat.msgs.map(msgHTML).join('');
+  $$('.msg-extra', box).forEach((x) => x.classList.add('is-shown'));
+  chat.busy = false;
+  updateSend();
+  keepBottom(true);
 }
 
-let msgId = 0;
-function pushBot(m, delay = 550) {
+function appendMessage(m, { stream = false } = {}) {
   const box = $('#chat-messages');
-  const wait = motionReduced.matches ? 0 : delay;
-  if (box && wait) box.insertAdjacentHTML('beforeend', `<div class="msg msg-bot typing" id="typing"><span class="avatar" aria-hidden="true">${icon('heart')}</span><div class="bubble"><span class="dots"><i></i><i></i><i></i></span><span class="sr-only">${L('Lafimora is typing', 'Lafimora na rubutu')}</span></div></div>`);
-  if (box) box.scrollTop = box.scrollHeight;
-  setTimeout(() => { chat.msgs.push({ from: 'bot', id: ++msgId, ...m }); drawMessages(); }, wait);
+  if (!box) return null;
+  box.insertAdjacentHTML('beforeend', msgHTML(m));
+  const el = box.lastElementChild;
+  if (!motionReduced.matches) el.classList.add('is-entering');
+  if (stream) streamInto(el, () => { chat.busy = false; updateSend(); });
+  else $$('.msg-extra', el).forEach((x) => x.classList.add('is-shown'));
+  keepBottom(true);
+  return el;
 }
 
+/* Word-by-word reveal of the main text, then sources/actions fade in */
+function streamInto(el, done) {
+  const extras = $$('.msg-extra', el);
+  const finish = () => { extras.forEach((x) => x.classList.add('is-shown')); keepBottom(); done(); };
+  const jobs = $$('[data-stream]', el).map((node) => ({ node, tokens: node.innerHTML.split(/(\s+)/) }));
+  if (motionReduced.matches || !jobs.length) return finish();
+  jobs.forEach((j) => { j.node.innerHTML = ''; });
+  const total = jobs.reduce((n, j) => n + j.tokens.length, 0);
+  const step = Math.max(2, Math.ceil(total / 70));
+  let ji = 0; let n = 0;
+  const tick = () => {
+    const j = jobs[ji];
+    n = Math.min(n + step, j.tokens.length);
+    j.node.innerHTML = j.tokens.slice(0, n).join('') + '<span class="caret" aria-hidden="true"></span>';
+    keepBottom();
+    if (n >= j.tokens.length) {
+      j.node.innerHTML = j.tokens.join('');
+      ji += 1; n = 0;
+      if (ji >= jobs.length) return finish();
+    }
+    streamTimer = setTimeout(tick, 28);
+  };
+  tick();
+}
+
+function showThinking() {
+  const box = $('#chat-messages');
+  if (!box) return null;
+  box.insertAdjacentHTML('beforeend', `<div class="msg msg-bot thinking" id="thinking"><span class="msg-avatar" aria-hidden="true">${brandMark('msg-logo')}</span><div class="msg-body"><span class="thinking-text">${L('Lafimora is thinking', 'Lafimora na tunani')}</span><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span></div></div>`);
+  keepBottom(true);
+  return box.lastElementChild;
+}
+
+function pushBot(m) {
+  chat.busy = true; updateSend();
+  const wait = motionReduced.matches ? 0 : (m.kind === 'emergency' ? 350 : 750);
+  const thinking = wait ? showThinking() : null;
+  setTimeout(() => {
+    thinking?.remove();
+    const msg = { from: 'bot', id: ++msgId, ...m };
+    chat.msgs.push(msg);
+    appendMessage(msg, { stream: m.kind !== 'emergency' });
+    if (m.kind === 'emergency') { chat.busy = false; updateSend(); }
+  }, wait);
+}
+
+function pushUser(m) {
+  const msg = { from: 'user', id: ++msgId, ...m };
+  chat.msgs.push(msg);
+  setChatMode('active');
+  appendMessage(msg);
+}
+
+/* ----- empty ⇄ active transition (FLIP) ----- */
+function setChatMode(mode) {
+  const shell = $('.chat-shell');
+  if (!shell || shell.dataset.mode === mode) return;
+  const form = $('#chat-compose');
+  const first = form.getBoundingClientRect();
+  shell.dataset.mode = mode;
+  const last = form.getBoundingClientRect();
+  if (motionReduced.matches || !form.animate) return;
+  form.animate(
+    [{ transform: `translate(${first.left - last.left}px, ${first.top - last.top}px)` }, { transform: 'none' }],
+    { duration: 560, easing: 'cubic-bezier(.22, .9, .24, 1)' }
+  );
+}
+
+/* ----- input handling ----- */
 function handleChip(c) {
-  chat.msgs.push({ from: 'user', chip: c });
-  drawMessages();
+  if (chat.busy) return;
+  pushUser({ chip: c });
   if (c.kind === 'ask') { chat.lastTopic = c.slug; pushBot({ kind: 'answer', slug: c.slug }); }
   else if (c.kind === 'simple') pushBot({ kind: 'simple', slug: c.slug });
   else if (c.kind === 'term') pushBot({ kind: 'term', slug: c.slug });
@@ -967,8 +1126,8 @@ function handleChip(c) {
 }
 
 function respond(text) {
-  chat.msgs.push({ from: 'user', text });
-  drawMessages();
+  if (chat.busy) return;
+  pushUser({ text });
   if (EMERGENCY_EN.test(text) || EMERGENCY_HA.test(text)) return pushBot({ kind: 'emergency' });
   if (FACILITY_INTENT.test(text)) return pushBot({ kind: 'facilities', service: match(SERVICE_WORDS, text) });
   if (/simpl|sau[ƙk]a/i.test(text) && chat.lastTopic) return pushBot({ kind: 'simple', slug: chat.lastTopic });
@@ -977,76 +1136,131 @@ function respond(text) {
   pushBot({ kind: 'fallback' });
 }
 
+function updateSend() {
+  const input = $('#chat-input'); const btn = $('.composer-send');
+  if (!input || !btn) return;
+  btn.disabled = chat.busy || !input.value.trim();
+}
+
+function autoGrow(el) {
+  el.style.height = 'auto';
+  el.style.height = `${Math.min(el.scrollHeight, 200)}px`;
+}
+
+function newChat() {
+  clearTimeout(streamTimer);
+  chat.msgs = []; chat.lastTopic = null; chat.busy = false; chat.stick = true;
+  $('#chat-messages').innerHTML = '';
+  setChatMode('empty');
+  updateSend();
+  $('#chat-input').focus();
+}
+
+async function copyAnswer(id, btn) {
+  const node = $(`.msg[data-id="${id}"] .msg-text`);
+  if (!node) return;
+  try {
+    await navigator.clipboard.writeText(node.innerText.trim());
+    btn.innerHTML = icon('check');
+    setTimeout(() => { btn.innerHTML = icon('copy'); }, 1500);
+  } catch (e) { /* clipboard unavailable (e.g. file://) */ }
+}
+
 function renderChat() {
+  const greeting = L('How can I help you today?', 'Me zan taimaka muku da shi yau?');
   $('#main').innerHTML = `
-  <section class="page-header page-header-sm"><div class="wrap">
-    <span class="eyebrow">${L('AI assistant', 'Mataimakin AI')}</span>
-    <h1>${L('Ask Lafimora', 'Tambayi Lafimora')}</h1>
-    <p class="lead">${L('Ask in your own words about pregnancy, breastfeeding, nutrition or child health — or ask where to find a service.', 'Yi tambaya da kalmominku kan juna biyu, shayarwa, abinci ko lafiyar yara — ko ku tambayi inda za a samu hidima.')}</p>
-  </div></section>
-  <div class="wrap chat-layout">
-    <section class="chat-panel" aria-label="${L('Conversation with Lafimora', 'Hira da Lafimora')}">
-      <div class="chat-head">
-        <span class="avatar avatar-lg" aria-hidden="true">${icon('heart')}</span>
-        <div class="chat-head-text"><strong>Lafimora <span class="badge badge-ai">AI</span></strong><span>${L('Information only · Not medical advice', 'Bayani kawai · Ba shawarar likita ba')}</span></div>
-        <span class="chat-lang">${icon('globe')}${L('Answers in English', 'Amsoshi a Hausa')}</span>
+  <div class="chat-shell" data-mode="empty">
+    <div class="chat-toolbar"><div class="chat-col chat-toolbar-inner">
+      <span class="chat-toolbar-title">${brandMark('toolbar-logo')}<strong>Lafimora</strong><span class="badge badge-ai">AI</span><span class="hide-sm muted">· ${L('Information only, not medical advice', 'Bayani kawai, ba shawarar likita ba')}</span></span>
+      <button type="button" class="btn btn-secondary btn-sm" id="new-chat">${icon('plus')}${L('New chat', 'Sabuwar hira')}</button>
+    </div></div>
+
+    <div class="chat-scroll" id="chat-scroll">
+      <div class="chat-col">
+        <section class="chat-welcome" aria-labelledby="chat-greeting">
+          <div class="welcome-logo">${brandMark('welcome-mark')}</div>
+          <h1 id="chat-greeting">${greeting}</h1>
+          <p>${L('Ask in your own words, in Hausa or English. I share general, reviewed information about pregnancy, breastfeeding and child nutrition — and help you find health facilities.', 'Yi tambaya da kalmominku, a Hausa ko Turanci. Ina ba da bayanan gaba ɗaya da aka duba kan juna biyu, shayarwa da abincin yara — kuma ina taimakawa wajen nemo cibiyoyin lafiya.')}</p>
+        </section>
+        <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-label="${esc(L('Conversation with Lafimora', 'Hira da Lafimora'))}"></div>
       </div>
-      <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-relevant="additions"></div>
-      <form class="chat-compose" id="chat-compose">
+    </div>
+
+    <div class="chat-dock"><div class="chat-col">
+      <button type="button" class="scroll-down" id="scroll-down" aria-label="${esc(L('Scroll to latest message', 'Je zuwa saƙo na ƙarshe'))}">${icon('arrowDown')}</button>
+      <form class="composer" id="chat-compose">
         <label for="chat-input" class="sr-only">${L('Your question', 'Tambayarku')}</label>
-        <input type="text" id="chat-input" maxlength="500" autocomplete="off" placeholder="${esc(L('Type your question…', 'Rubuta tambayarku…'))}">
-        <button class="btn btn-primary" type="submit" aria-label="${esc(L('Send', 'Aika'))}">${icon('send')}<span class="hide-sm">${L('Send', 'Aika')}</span></button>
+        <textarea id="chat-input" rows="1" maxlength="500" autocomplete="off" placeholder="${esc(L('Ask Lafimora a health question…', 'Tambayi Lafimora tambayar lafiya…'))}"></textarea>
+        <div class="composer-bar">
+          <button type="button" class="composer-lang" data-lang-toggle title="${esc(L('Switch to Hausa', 'Canza zuwa Turanci'))}">${icon('globe')}${L('English', 'Hausa')}</button>
+          <span class="composer-spacer"></span>
+          <span class="composer-hint">${L('Enter to send · Shift + Enter for a new line', 'Enter don aikawa · Shift + Enter don sabon layi')}</span>
+          <button type="submit" class="composer-send" aria-label="${esc(L('Send', 'Aika'))}" disabled>${icon('arrowUp')}</button>
+        </div>
       </form>
-      <p class="chat-privacy">${icon('lock')}${L('Do not share your name, phone number or personal medical details. This demo runs only in your browser.', 'Kada ku rubuta suna, lambar waya ko bayanan lafiya na sirri. Wannan gwajin na gudana a burauzarku kawai.')}</p>
-    </section>
-    <aside class="chat-aside">
-      <div class="panel">
-        <h2 class="h4">${L('Popular questions', 'Tambayoyin da aka fi yi')}</h2>
-        <div class="aside-chips">${[['pregnancy-nutrition', 0], ['postnatal', 1], ['breastfeeding', 0], ['complementary-feeding', 1], ['malnutrition', 0]].map(([s, i]) => `<button type="button" class="aside-chip" data-chip='${esc(JSON.stringify({ kind: 'ask', slug: s, i }))}'>${esc(t(topicBySlug(s).questions[i]))}</button>`).join('')}</div>
+      <div class="chat-suggest">
+        ${SUGGESTIONS.map((s, i) => `<button type="button" class="suggest-card" style="--i:${i}" ${chipAttr(s.chip)}><span class="suggest-icon">${icon(s.icon)}</span><span><strong>${t(s.title)}</strong><small>${esc(chipLabel(s.chip))}</small></span></button>`).join('')}
+        <a class="suggest-more" href="topics.html">${icon('book')}${L('Browse all health topics', 'Duba duk batutuwan lafiya')}</a>
       </div>
-      <div class="panel">
-        <h2 class="h4">${L('Find care', 'Nemo kulawa')}</h2>
-        <div class="aside-chips">${['anc', 'bf', 'growth'].map((s) => `<button type="button" class="aside-chip" data-chip='${esc(JSON.stringify({ kind: 'facility', service: s }))}'>${icon('pin')}${esc(chipLabel({ kind: 'facility', service: s }))}</button>`).join('')}</div>
-      </div>
-      <div class="panel panel-danger">
-        <h2 class="h4">${icon('alert')}${L('Emergency?', 'Gaggawa?')}</h2>
-        <p>${L('For bleeding, fits, difficult breathing or other warning signs, get help now.', 'Don zubar jini, farfaɗiya, wahalar numfashi ko wasu alamun haɗari, a nemi taimako yanzu.')}</p>
-        <a class="btn btn-danger btn-sm btn-block" href="tel:112">${icon('phone')}${L('Call 112', 'Kira 112')}</a>
-      </div>
-      <div class="panel">
-        <h2 class="h4">${L('Prefer WhatsApp?', 'Kun fi son WhatsApp?')}</h2>
-        <p class="muted">${L('Lafimora will also be available on WhatsApp with the same answers.', 'Lafimora za ta kasance a WhatsApp ma tare da amsoshi iri ɗaya.')}</p>
-        ${whatsappButton('btn-block btn-sm')}
-      </div>
-    </aside>
+      <p class="chat-footnote">${icon('lock')}<span>${L('Lafimora is an AI and can make mistakes. Information only — not medical advice. Do not share names, phone numbers or personal medical details.', 'Lafimora AI ce kuma tana iya yin kuskure. Bayani kawai — ba shawarar likita ba. Kada ku rubuta suna, lambar waya ko bayanan lafiya na sirri.')} <a href="tel:112">${L('Emergency? Call 112', 'Gaggawa? Kira 112')}</a></span></p>
+    </div></div>
   </div>`;
 
-  // Event delegation: chips, feedback
+  const input = $('#chat-input');
+  const send = () => {
+    const v = input.value.trim();
+    if (!v || chat.busy) return;
+    input.value = ''; autoGrow(input); updateSend();
+    respond(v);
+  };
+  $('#chat-compose').addEventListener('submit', (e) => { e.preventDefault(); send(); });
+  input.addEventListener('input', () => { autoGrow(input); updateSend(); });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); }
+  });
+  $('[data-lang-toggle]').addEventListener('click', () => setLanguage(lang === 'en' ? 'ha' : 'en'));
+  $('#new-chat').addEventListener('click', newChat);
+  $('#scroll-down').addEventListener('click', () => { chat.stick = true; scroller().scrollTo({ top: scroller().scrollHeight, behavior: motionReduced.matches ? 'auto' : 'smooth' }); });
+  scroller().addEventListener('scroll', onThreadScroll, { passive: true });
+
+  // Event delegation: chips, suggestions, feedback, copy
   $('#main').addEventListener('click', (e) => {
     const chip = e.target.closest('[data-chip]');
-    if (chip) { handleChip(JSON.parse(chip.dataset.chip)); $('#chat-input').focus({ preventScroll: true }); return; }
+    if (chip) { handleChip(JSON.parse(chip.dataset.chip)); return; }
     const fb = e.target.closest('[data-feedback]');
-    if (fb) { const m = chat.msgs.find((x) => x.id === Number(fb.dataset.feedback)); if (m) { m.feedback = fb.dataset.value; drawMessages(); } }
-  });
-  $('#chat-compose').addEventListener('submit', (e) => {
-    e.preventDefault();
-    const input = $('#chat-input'); const v = input.value.trim();
-    if (!v) return;
-    input.value = '';
-    respond(v);
-  });
-
-  if (!chat.msgs.length) {
-    chat.msgs.push({ from: 'bot', id: ++msgId, kind: 'intro' });
-    const slug = params.get('topic');
-    if (slug && topicBySlug(slug)) {
-      const i = Math.min(Number(params.get('q')) || 0, topicBySlug(slug).questions.length - 1);
-      drawMessages();
-      handleChip({ kind: 'ask', slug, i });
+    if (fb) {
+      const m = chat.msgs.find((x) => x.id === Number(fb.dataset.feedback));
+      if (m) {
+        m.feedback = fb.dataset.value;
+        const actions = fb.closest('.msg-actions');
+        actions.outerHTML = actionsHTML(m);
+      }
       return;
     }
+    const cp = e.target.closest('[data-copy]');
+    if (cp) copyAnswer(cp.dataset.copy, cp);
+  });
+
+  if (chat.msgs.length) {
+    // Language switch mid-conversation: keep the thread, re-render it in the new language
+    $('.chat-shell').dataset.mode = 'active';
+    drawMessages();
+  } else if (!chat.paramsUsed) {
+    chat.paramsUsed = true;
+    const slug = params.get('topic');
+    const ask = (params.get('ask') || '').trim().slice(0, 500);
+    if (slug || ask) {
+      try { history.replaceState(null, '', location.pathname); } catch (e) { /* ignore */ }
+      // Short pause so the arrival animation is visible
+      setTimeout(() => {
+        if (slug && topicBySlug(slug)) {
+          const i = Math.min(Number(params.get('q')) || 0, topicBySlug(slug).questions.length - 1);
+          handleChip({ kind: 'ask', slug, i });
+        } else if (ask) respond(ask);
+      }, motionReduced.matches ? 0 : 350);
+    }
   }
-  drawMessages(); // conversation is kept when the language changes, and re-rendered in the new language
+  if (window.matchMedia('(pointer: fine)').matches) input.focus({ preventScroll: true });
 }
 
 /* ---------- About ---------- */
@@ -1156,5 +1370,10 @@ function render() {
   if (location.hash) { const target = document.getElementById(location.hash.slice(1)); if (target) target.scrollIntoView(); }
 }
 
-render();
-languageChooser();
+async function boot() {
+  if (['facilities', 'facility', 'chat'].includes(page)) await loadFacilityData();
+  render();
+  languageChooser();
+}
+
+boot();
