@@ -70,20 +70,36 @@ const ICONS = {
   arrowDown: 'M12 5v14M19 12l-7 7-7-7'
 };
 const icon = (name, cls = '') => `<svg class="icon ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${ICONS[name] || ''}"/></svg>`;
-const brandMark = (cls = '') => `<img class="brand-symbol ${cls}" src="assets/brand/lafimora-mark.png" alt="" width="1024" height="1024">`;
+const brandMark = (cls = '') => `<img class="brand-symbol ${cls}" src="assets/brand/lafimora-mark.png" alt="" width="256" height="256">`;
 
-/* ---------- Images (local, project-bound Northern Nigerian editorial photography) ---------- */
+/* ---------- Images: real, openly licensed photographs from Nigeria (Wikimedia Commons) ----------
+   Every file is credited in IMAGE_CREDITS below and shown on the About page, as the CC BY / CC BY-SA licences require. */
 const IMAGES = {
-  mother: 'mother-baby.webp',
-  baby: 'mother-baby.webp',
-  nurse: 'antenatal-care.webp',
-  family: 'mother-baby.webp',
-  food: 'family-nutrition.webp',
-  child: 'child-clinic.webp',
-  clinic: 'antenatal-care.webp',
-  care: 'child-clinic.webp'
+  mother: 'mother-child-health-session-northern-nigeria.webp',
+  clinic: 'clinic-consultation-northern-nigeria.webp',
+  nurse: 'clinic-consultation-northern-nigeria.webp',
+  care: 'child-nutrition-check-katsina.webp',
+  baby: 'breastfeeding-mother-zonkwa-kaduna.webp',
+  family: 'breastfeeding-mother-zonkwa-kaduna.webp',
+  food: 'leafy-greens-kakuri-market-kaduna.webp',
+  meal: 'tuwo-miyan-kuka-fish.webp',
+  child: 'mother-child-antenatal-clinic-jigawa.webp',
+  midwives: 'midwifery-students-jigawa.webp',
+  community: 'fulani-mother-kolere-market.webp'
 };
+const IMAGE_CREDITS = [
+  {"file": "mother-child-health-session-northern-nigeria.webp", "alt": "A young mother and her child at a women’s health education session in northern Nigeria", "title": "A woman attends a health education session in northern Nigeria (8406369172).jpg", "author": "DFID - UK Department for International Development", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "source": "https://commons.wikimedia.org/wiki/File:A_woman_attends_a_health_education_session_in_northern_Nigeria_(8406369172).jpg"},
+  {"file": "clinic-consultation-northern-nigeria.webp", "alt": "A woman speaking with a health worker at a clinic in northern Nigeria", "title": "Women for health (7139243509).jpg", "author": "DFID - UK Department for International Development", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "source": "https://commons.wikimedia.org/wiki/File:Women_for_health_(7139243509).jpg"},
+  {"file": "child-nutrition-check-katsina.webp", "alt": "A health worker measures a child’s mid-upper arm at a rural health centre in Katsina State", "title": "A child is checked for signs of malnutrition in Katsina State, Nigeria, March 2011 (8406367308).jpg", "author": "DFID - UK Department for International Development", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "source": "https://commons.wikimedia.org/wiki/File:A_child_is_checked_for_signs_of_malnutrition_in_Katsina_State,_Nigeria,_March_2011_(8406367308).jpg"},
+  {"file": "breastfeeding-mother-zonkwa-kaduna.webp", "alt": "A Bajju mother breastfeeding her child at Zonkwa, Kaduna State", "title": "The universal live of a Mother- A bajju woman in colorful cultural atiyer breastfeeding her child at the Awumba 2026 edition at Zonkwa.jpg", "author": "Ryok Kundyi2912", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:The_universal_live_of_a_Mother-_A_bajju_woman_in_colorful_cultural_atiyer_breastfeeding_her_child_at_the_Awumba_2026_edition_at_Zonkwa.jpg"},
+  {"file": "leafy-greens-kakuri-market-kaduna.webp", "alt": "Fresh leafy vegetables on sale at the Monday Market in Kakuri, Kaduna", "title": "Vegetables on sale at the Monday Market in Kakuri, Kaduna 05.jpg", "author": "Kambai Akau", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:Vegetables_on_sale_at_the_Monday_Market_in_Kakuri,_Kaduna_05.jpg"},
+  {"file": "tuwo-miyan-kuka-fish.webp", "alt": "Tuwo with miyan kuka and fried fish, a northern Nigerian meal", "title": "Tuwo with miyan kuka and fried fish.jpg", "author": "Suleiman213", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:Tuwo_with_miyan_kuka_and_fried_fish.jpg"},
+  {"file": "mother-child-antenatal-clinic-jigawa.webp", "alt": "A mother and her daughter at an antenatal care clinic in Jigawa State", "title": "Mother and child, ante-natal care clinic, Jigawa, Nigeria, December 2011 (8379199175).jpg", "author": "Susan Elden, health advisor, DFID Nigeria", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "source": "https://commons.wikimedia.org/wiki/File:Mother_and_child,_ante-natal_care_clinic,_Jigawa,_Nigeria,_December_2011_(8379199175).jpg"},
+  {"file": "midwifery-students-jigawa.webp", "alt": "Student midwives in class at the Jigawa State School of Midwifery", "title": "Female faces (7138907111).jpg", "author": "DFID - UK Department for International Development", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "source": "https://commons.wikimedia.org/wiki/File:Female_faces_(7138907111).jpg"},
+  {"file": "fulani-mother-kolere-market.webp", "alt": "A Fulani woman with a baby on her back buying a calabash at the Kolere market", "title": "A Fulani Woman buying a Calabash in the Kolere market (4).jpg", "author": "Musaddam Idriss", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "source": "https://commons.wikimedia.org/wiki/File:A_Fulani_Woman_buying_a_Calabash_in_the_Kolere_market_(4).jpg"}
+];
 const photo = (id) => `assets/images/${IMAGES[id] || id}`;
+const photoAlt = (id) => (IMAGE_CREDITS.find((c) => c.file === (IMAGES[id] || id)) || {}).alt || '';
 
 /* ---------- Services taxonomy (document §7.2B) ---------- */
 const SERVICES = {
@@ -133,9 +149,9 @@ async function loadFacilityData() {
 
 /* ---------- Topic groups (document §7.1 A, B, C) ---------- */
 const GROUPS = {
-  maternal: { icon: 'heart', img: 'family', en: 'Maternal health', ha: 'Lafiyar uwa', desc: { en: 'Pregnancy, antenatal and postnatal care, prevention and warning signs.', ha: 'Juna biyu, awon ciki, kulawa bayan haihuwa, rigakafi da alamun haɗari.' } },
+  maternal: { icon: 'heart', img: 'clinic', en: 'Maternal health', ha: 'Lafiyar uwa', desc: { en: 'Pregnancy, antenatal and postnatal care, prevention and warning signs.', ha: 'Juna biyu, awon ciki, kulawa bayan haihuwa, rigakafi da alamun haɗari.' } },
   mnutrition: { icon: 'leaf', img: 'food', en: 'Maternal nutrition', ha: 'Abincin uwa', desc: { en: 'Eating well during pregnancy and breastfeeding, using familiar local foods.', ha: 'Cin abinci mai kyau lokacin juna biyu da shayarwa, da abincin gida da aka saba.' } },
-  iycf: { icon: 'smile', img: 'child', en: 'Infant & young child nutrition', ha: 'Abincin jarirai da ƙananan yara', desc: { en: 'Breastfeeding, complementary feeding and healthy growth.', ha: 'Shayarwa, ƙarin abinci da girma cikin koshin lafiya.' } }
+  iycf: { icon: 'smile', img: 'family', en: 'Infant & young child nutrition', ha: 'Abincin jarirai da ƙananan yara', desc: { en: 'Breastfeeding, complementary feeding and healthy growth.', ha: 'Shayarwa, ƙarin abinci da girma cikin koshin lafiya.' } }
 };
 
 const SOURCES = {
@@ -209,7 +225,7 @@ const TOPICS = [
     sources: ['pnc', 'fmoh']
   },
   {
-    slug: 'prevention', group: 'maternal', img: 'care', service: 'child',
+    slug: 'prevention', group: 'maternal', img: 'child', service: 'child',
     name: { en: 'Prevention & immunisation', ha: 'Kariya da rigakafi' },
     desc: { en: 'Preventive care for mothers and children, including vaccines.', ha: 'Kulawar kariya ga uwa da yara, har da allurar rigakafi.' },
     questions: [
@@ -228,7 +244,7 @@ const TOPICS = [
     sources: ['imm', 'fmoh']
   },
   {
-    slug: 'warning-signs', group: 'maternal', img: 'nurse', service: 'maternal', danger: true,
+    slug: 'warning-signs', group: 'maternal', img: 'clinic', service: 'maternal', danger: true,
     name: { en: 'Warning signs', ha: 'Alamun haɗari' },
     desc: { en: 'Signs that mean a mother or baby needs care straight away.', ha: 'Alamun da ke nuna uwa ko jariri na bukatar kulawa nan take.' },
     questions: [
@@ -309,7 +325,7 @@ const TOPICS = [
     sources: ['iycf', 'fmoh']
   },
   {
-    slug: 'dietary-diversity', group: 'mnutrition', img: 'food', service: 'nutrition',
+    slug: 'dietary-diversity', group: 'mnutrition', img: 'meal', service: 'nutrition',
     name: { en: 'Dietary diversity', ha: 'Cin abinci iri-iri' },
     desc: { en: 'Why eating from different food groups matters.', ha: 'Muhimmancin cin abinci daga rukuni daban-daban.' },
     questions: [
@@ -366,7 +382,7 @@ const TOPICS = [
     sources: ['iycf', 'fmoh']
   },
   {
-    slug: 'child-feeding', group: 'iycf', img: 'child', service: 'growth',
+    slug: 'child-feeding', group: 'iycf', img: 'care', service: 'growth',
     name: { en: 'Healthy child feeding', ha: 'Ciyar da yara yadda ya kamata' },
     desc: { en: 'Age-appropriate meals and healthy growth for young children.', ha: 'Abincin da ya dace da shekaru da girman yara cikin koshin lafiya.' },
     questions: [
@@ -433,14 +449,14 @@ function reviewNote() {
 /* ---------- Layout ---------- */
 function layout() {
   document.documentElement.lang = lang;
-  // Desktop: logo = Home, and "Ask Lafimora" is the single call-to-action button (no duplicate link).
-  // Mobile drawer: Home and Ask Lafimora are added back as plain links (the CTA button is hidden there).
+  // Centre of the bar: Home · About · Health topics · Find a facility.
+  // "Ask Lafimora" is the call-to-action button on the right; in the mobile drawer it is added as a plain link.
   const nav = [
-    ['home', 'index.html', { en: 'Home', ha: 'Gida' }, true],
-    ['chat', 'chat.html', { en: 'Ask Lafimora', ha: 'Tambayi Lafimora' }, true],
+    ['home', 'index.html', { en: 'Home', ha: 'Gida' }],
+    ['about', 'about.html', { en: 'About', ha: 'Game da mu' }],
     ['topics', 'topics.html', { en: 'Health topics', ha: 'Batutuwan lafiya' }],
     ['facilities', 'facilities.html', { en: 'Find a facility', ha: 'Nemo cibiyar lafiya' }],
-    ['about', 'about.html', { en: 'About', ha: 'Game da mu' }]
+    ['chat', 'chat.html', { en: 'Ask Lafimora', ha: 'Tambayi Lafimora' }, true]
   ];
   const current = page === 'topic' ? 'topics' : page === 'facility' ? 'facilities' : page;
   document.body.classList.add(`page-${page}`);
@@ -488,6 +504,7 @@ function layout() {
           <li><a href="about.html#privacy">${L('Privacy and your data', 'Sirri da bayananku')}</a></li>
           <li><a href="about.html#review">${L('How content is reviewed', 'Yadda ake duba bayanai')}</a></li>
           <li><a href="topic.html?name=warning-signs">${L('Warning signs', 'Alamun haɗari')}</a></li>
+          <li><a href="about.html#credits">${L('Photo credits', 'Masu hotuna')}</a></li>
         </ul>
       </div>
     </div>
@@ -564,8 +581,28 @@ function renderHome() {
       <a class="hero-alt" href="facilities.html"><span class="action-icon action-icon-alt">${icon('pin')}</span><span class="action-text"><strong>${L('Find a health facility', 'Nemo cibiyar lafiya')}</strong><small>${L('Search Kaduna State facilities by service or area', 'Bincika cibiyoyin Jihar Kaduna ta hidima ko yanki')}</small></span>${icon('arrowRight')}</a>
     </div>
     <div class="hero-media">
-      <img src="${photo('mother', 1000)}" alt="${esc(L('Illustrative photo of a mother holding her baby', 'Hoton misali na uwa riƙe da jaririnta'))}" fetchpriority="high">
+      <img src="${photo('mother')}" alt="${esc(L(photoAlt('mother'), 'Wata matashiyar uwa da ’yarta a taron ilimin lafiya na mata a arewacin Najeriya'))}" fetchpriority="high">
       <div class="hero-badge">${icon('shield')}<span><strong>${L('Information you can trust', 'Bayanan da za a amince da su')}</strong><small>${L('Content reviewed by health professionals before launch', 'Ƙwararrun lafiya za su duba bayanai kafin ƙaddamarwa')}</small></span></div>
+    </div>
+  </div></section>
+
+  <section class="section home-about" id="about" aria-labelledby="home-about-title"><div class="wrap home-about-grid">
+    <div class="home-about-media">
+      <img loading="lazy" src="${photo('midwives')}" alt="${esc(L(photoAlt('midwives'), 'Ɗalibai masu koyon unguwar zoma a aji a Makarantar Unguwar Zoma ta Jihar Jigawa'))}">
+      <span class="home-about-tag">${icon('pin')}${L('Built for northern Nigeria', 'An gina don arewacin Najeriya')}</span>
+    </div>
+    <div>
+      <span class="eyebrow">${L('About Lafimora', 'Game da Lafimora')}</span>
+      <h2 id="home-about-title">${L('Health information that speaks your language.', 'Bayanan lafiya a harshen da kuke ji.')}</h2>
+      <p>${L('<strong>Lafimora</strong> joins <strong>LAFI</strong> — from the Hausa word <em>lafiya</em>, health and wellbeing — with <strong>MORA</strong>: Motherhood, Outreach, Resources and Awareness.', '<strong>Lafimora</strong> ta haɗa <strong>LAFI</strong> — daga kalmar Hausa <em>lafiya</em> — da <strong>MORA</strong>: Motherhood, Outreach, Resources and Awareness.')}</p>
+      <p>${L('Many families find it hard to get clear, trusted answers about pregnancy, breastfeeding and child nutrition, or to know which facility offers the care they need. Lafimora brings reviewed health information and a directory of health facilities together, in Hausa and English.', 'Iyalai da yawa na fuskantar wahala wajen samun amsoshi bayyanannu kan juna biyu, shayarwa da abincin yara, ko sanin wace cibiya ke ba da kulawar da suke bukata. Lafimora ta haɗa bayanan lafiya da aka duba da kundin cibiyoyin lafiya, a Hausa da Turanci.')}</p>
+      <ul class="about-facts">
+        <li><strong>2</strong><span>${L('languages — Hausa and English', 'harsuna — Hausa da Turanci')}</span></li>
+        <li><strong>${FACILITIES.length > 6 ? FACILITIES.length : '290+'}</strong><span>${L('Kaduna State facilities in the directory', 'cibiyoyin Jihar Kaduna a cikin kundin')}</span></li>
+        <li><strong>12</strong><span>${L('health and nutrition topics', 'batutuwan lafiya da abinci')}</span></li>
+      </ul>
+      <p class="muted">${L('Developed by YandyTech Community through its SolutionLab programme, with public-health and nutrition professionals. Piloting in Kaduna State.', 'YandyTech Community ce ke haɓaka ta ta shirin SolutionLab, tare da ƙwararrun lafiya da abinci. Gwaji a Jihar Kaduna.')}</p>
+      <a class="btn btn-secondary" href="about.html">${L('More about Lafimora', 'Ƙarin bayani game da Lafimora')}${icon('arrowRight')}</a>
     </div>
   </div></section>
 
@@ -604,7 +641,7 @@ function renderHome() {
     <div class="group-grid">
       ${Object.entries(GROUPS).map(([key, g]) => `
         <a class="group-card" href="topics.html#${key}">
-          <div class="group-card-img"><img loading="lazy" src="${photo(g.img, 640)}" alt=""></div>
+          <div class="group-card-img"><img loading="lazy" src="${photo(g.img)}" alt=""></div>
           <div class="group-card-body">
             <span class="group-icon">${icon(g.icon)}</span>
             <h3>${t(g)}</h3>
@@ -648,7 +685,7 @@ function renderHome() {
 /* ---------- Topics ---------- */
 function topicCard(tp) {
   return `<a class="topic-card" href="topic.html?name=${tp.slug}">
-    <div class="topic-card-img"><img loading="lazy" src="${photo(tp.img, 600)}" alt=""></div>
+    <div class="topic-card-img"><img loading="lazy" src="${photo(tp.img)}" alt=""></div>
     <div class="topic-card-body">
       <h3>${t(tp.name)}</h3>
       <p>${t(tp.desc)}</p>
@@ -692,7 +729,7 @@ function renderTopic() {
           <a class="btn btn-secondary" href="facilities.html?service=${tp.service}">${icon('pin')}${L('Find facilities', 'Nemo cibiyoyi')}</a>
         </div>
       </div>
-      <div class="topic-hero-img"><img src="${photo(tp.img, 900)}" alt=""></div>
+      <div class="topic-hero-img"><img src="${photo(tp.img)}" alt="${esc(photoAlt(tp.img))}"></div>
     </section>
 
     ${tp.danger ? `
@@ -1273,7 +1310,7 @@ function renderAbout() {
   </div></section>
   <div class="wrap">
     <section class="split section-sm">
-      <div class="split-img"><img loading="lazy" src="${photo('family', 900)}" alt=""></div>
+      <div class="split-img"><img loading="lazy" src="${photo('community')}" alt="${esc(photoAlt('community'))}"></div>
       <div>
         <h2>${L('Why Lafimora', 'Me yasa Lafimora')}</h2>
         <p>${L('Health services and information exist, but it is not always easy to find, understand or trust them — especially in a familiar language. Lafimora brings verified maternal and child health information and healthcare service discovery together in one simple, multilingual place.', 'Akwai ayyukan lafiya da bayanai, amma ba koyaushe ake samun su, fahimtar su ko amincewa da su cikin sauƙi ba — musamman a harshen da aka saba. Lafimora ta haɗa ingantattun bayanan lafiyar uwa da yara da neman cibiyoyin lafiya a wuri ɗaya mai sauƙi.')}</p>
@@ -1346,6 +1383,12 @@ function renderAbout() {
     <section class="callout callout-info section-sm-bottom">
       ${icon('users')}
       <div><strong>${L('Health facilities, authorities and community groups', 'Cibiyoyin lafiya, hukumomi da ƙungiyoyin al’umma')}</strong><br>${L('Partnerships help us verify facility information and share approved health messages. To get involved, contact YandyTech Community.', 'Haɗin gwiwa na taimaka mana tabbatar da bayanan cibiyoyi da yaɗa saƙonnin lafiya. Don shiga, a tuntuɓi YandyTech Community.')}</div>
+    </section>
+
+    <section class="section-sm-bottom photo-credits" id="credits" aria-labelledby="credits-title">
+      <h2 class="h3" id="credits-title">${L('Photo credits', 'Masu hotuna')}</h2>
+      <p class="muted">${L('Photographs are real images from Nigeria, used under open licences from Wikimedia Commons. They were resized for the web.', 'Hotunan na gaske ne daga Najeriya, an yi amfani da su ƙarƙashin lasisin buɗe daga Wikimedia Commons. An rage girmansu don yanar gizo.')}</p>
+      <ul class="credit-list">${IMAGE_CREDITS.map((c) => `<li><img loading="lazy" src="assets/images/${c.file}" alt=""><span><strong>${esc(c.alt)}</strong><small>${L('Photo', 'Hoto')}: ${esc(c.author)} · <a href="${esc(c.source)}" target="_blank" rel="noopener">Wikimedia Commons</a> · <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a></small></span></li>`).join('')}</ul>
     </section>
   </div>`;
 }

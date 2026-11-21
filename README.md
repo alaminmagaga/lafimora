@@ -33,6 +33,7 @@ Language links: add `?lang=ha` or `?lang=en` to any page URL (e.g. `index.html?l
 - All health text is **sample content** based on WHO/UNICEF guidance — it must be reviewed by qualified health and nutrition professionals.
 - Hausa copy needs review by native speakers.
 - Facilities are **fictional**; replace with verified records (with real verification dates) only.
-- Replace remote Unsplash images with licensed, consented, locally relevant photos.
+- Photos are real, openly licensed images from Nigeria (Wikimedia Commons, CC BY / CC BY-SA), credited on the About page and in `assets/images/CREDITS.md`. Keep those credits with any reuse; for the public launch, consider commissioning photos with signed consent from pilot communities.
+- `assets/brand/lafimora-mark.png` is a 256px web copy of the logo; the full-resolution original is `assets/brand/lafimora-mark-full.png`.
 - Connect the chat to the real RAG backend and WhatsApp integration; keep the emergency routing server-side as well.
 - Test with users and current mobile browsers.

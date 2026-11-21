@@ -634,3 +634,47 @@ body.page-chat main { flex: 1; min-height: 0; display: flex; }
 @media (prefers-reduced-motion: reduce) {
   .welcome-logo::after, .thinking-text, .thinking .msg-avatar { animation: none; }
 }
+
+/* ---------- Navigation: logo left · links centred · language + CTA right ---------- */
+@media (min-width: 901px) {
+  .nav { display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; }
+  .nav .brand { justify-self: start; }
+  .nav-links { justify-self: center; margin: 0; gap: 6px; }
+  .nav-actions { justify-self: end; margin-left: 0; }
+}
+@media (min-width: 901px) and (max-width: 1140px) {
+  .lang-switch .long { display: none; }
+  .lang-switch .short { display: inline; }
+  .nav-link { padding: 8px 9px; font-size: .92rem; }
+}
+
+/* ---------- Home: About section ---------- */
+.home-about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(32px, 6vw, 72px); align-items: center; }
+.home-about-media { position: relative; aspect-ratio: 4 / 3.2; border-radius: 32px; overflow: hidden; border: 1px solid var(--border); background: var(--primary-50); }
+.home-about-media img { position: absolute; inset: 0; }
+.home-about-tag { position: absolute; left: 16px; bottom: 16px; display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 99px; background: rgb(255 250 242 / .95); border: 1px solid var(--border); font-size: .88rem; font-weight: 600; color: var(--primary); }
+.home-about h2 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); }
+.about-facts { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
+.about-facts li { display: grid; gap: 2px; padding: 14px 16px; border: 1px solid var(--border); border-radius: var(--radius); background: #fffaf2; }
+.about-facts strong { font-family: 'DM Serif Display', Georgia, serif; font-weight: 400; font-size: 1.9rem; line-height: 1; color: var(--primary); }
+.about-facts span { font-size: .86rem; color: var(--text-2); line-height: 1.35; }
+
+/* ---------- About page: photo credits ---------- */
+.photo-credits { padding-top: 8px; }
+.credit-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; margin-top: 16px; }
+.credit-list li { display: flex; gap: 12px; align-items: center; padding: 10px; border: 1px solid var(--border); border-radius: var(--radius); background: #fffaf2; }
+.credit-list img { width: 72px; height: 56px; border-radius: 10px; flex-shrink: 0; }
+.credit-list strong { display: block; font-size: .88rem; line-height: 1.35; color: var(--text); }
+.credit-list small { display: block; margin-top: 2px; font-size: .78rem; color: var(--muted); line-height: 1.4; }
+.credit-list a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+
+@media (max-width: 900px) {
+  .home-about-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .about-facts { grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .about-facts li { padding: 10px; }
+  .about-facts strong { font-size: 1.5rem; }
+  .about-facts span { font-size: .78rem; }
+  .credit-list { grid-template-columns: 1fr; }
+}
