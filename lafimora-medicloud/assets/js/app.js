@@ -1293,7 +1293,7 @@ function botHTML(m) {
       return `<div class="msg-text">${mdLite(m.text)}</div>
         <div class="msg-extra">
           ${m.cut ? `<p class="msg-note">${icon('info')}<span>${L('The answer was cut off. Please ask again.', 'Amsar ta katse. Don Allah a sake tambaya.')}</span></p>` : ''}
-          <div class="msg-sources">${rel ? `<span class="msg-sources-title">${icon('book')}${L('Related reviewed guidance', 'Jagora mai alaƙa da aka duba')}</span><ul>${rel.sources.map((s) => `<li>${esc(SOURCES[s])}</li>`).join('')}</ul>` : ''}<span class="msg-sample">${L('AI-generated answer · general information, not medical advice', 'Amsar AI · bayani na gaba ɗaya, ba shawarar likita ba')}</span></div>
+          ${rel ? `<div class="msg-sources"><span class="msg-sources-title">${icon('book')}${L('Related reviewed guidance', 'Jagora mai alaƙa da aka duba')}</span><ul>${rel.sources.map((s) => `<li>${esc(SOURCES[s])}</li>`).join('')}</ul></div>` : ''}
           ${chipsHTML(rel ? [{ kind: 'term', slug: rel.slug }, { kind: 'facility', service: rel.service }] : [{ kind: 'facility' }])}
           ${actionsHTML(m)}
         </div>`;
