@@ -262,12 +262,12 @@ const TOPICS = [
       { en: 'What are danger signs in a newborn?', ha: 'Menene alamun haɗari ga jariri?' }
     ],
     answer: {
-      en: 'Some signs mean a mother or baby needs care immediately — do not wait. In pregnancy or after birth these include bleeding, fits, severe headache with blurred vision, fever with weakness, severe abdominal pain, or difficult breathing. In a newborn: not feeding well, fits, fast breathing, fever or feeling very cold, or being very sleepy. If you see any of these, go to the nearest health facility now or call 112.',
-      ha: 'Wasu alamu na nufin uwa ko jariri na bukatar kulawa nan take — kada a jira. Lokacin juna biyu ko bayan haihuwa sun haɗa da zubar jini, farfaɗiya, ciwon kai mai tsanani tare da gani dishi-dishi, zazzaɓi tare da rauni, ciwon ciki mai tsanani, ko wahalar numfashi. Ga jariri: rashin shan nono yadda ya kamata, farfaɗiya, numfashi da sauri, zazzaɓi ko sanyi sosai a jiki, ko yawan barci. Idan an ga ɗaya daga cikinsu, a je cibiyar lafiya mafi kusa yanzu ko a kira 112.'
+      en: 'Some signs mean a mother or baby needs care immediately — do not wait. In pregnancy or after birth these include bleeding, fits, severe headache with blurred vision, fever with weakness, severe abdominal pain, or difficult breathing. In a newborn: not feeding well, fits, fast breathing, fever or feeling very cold, or being very sleepy. If you see any of these, go to the nearest health facility now.',
+      ha: 'Wasu alamu na nufin uwa ko jariri na bukatar kulawa nan take — kada a jira. Lokacin juna biyu ko bayan haihuwa sun haɗa da zubar jini, farfaɗiya, ciwon kai mai tsanani tare da gani dishi-dishi, zazzaɓi tare da rauni, ciwon ciki mai tsanani, ko wahalar numfashi. Ga jariri: rashin shan nono yadda ya kamata, farfaɗiya, numfashi da sauri, zazzaɓi ko sanyi sosai a jiki, ko yawan barci. Idan an ga ɗaya daga cikinsu, a je cibiyar lafiya mafi kusa yanzu.'
     },
     simple: {
-      en: 'Bleeding, fits, a very bad headache, fever, bad stomach pain or hard breathing are dangerous. Go to a health facility now or call 112.',
-      ha: 'Zubar jini, farfaɗiya, ciwon kai mai tsanani, zazzaɓi, ciwon ciki mai tsanani ko wahalar numfashi suna da haɗari. A je cibiyar lafiya yanzu ko a kira 112.'
+      en: 'Bleeding, fits, a very bad headache, fever, bad stomach pain or hard breathing are dangerous. Go to a health facility now.',
+      ha: 'Zubar jini, farfaɗiya, ciwon kai mai tsanani, zazzaɓi, ciwon ciki mai tsanani ko wahalar numfashi suna da haɗari. A je cibiyar lafiya yanzu.'
     },
     term: { word: { en: 'Danger sign', ha: 'Alamar haɗari' }, def: { en: 'A sign that something may be seriously wrong and a health worker is needed urgently.', ha: 'Alamar da ke nuna wani abu na iya zama mai tsanani, kuma ana bukatar ma’aikacin lafiya cikin gaggawa.' } },
     dangerLists: [
@@ -435,8 +435,7 @@ const topicBySlug = (slug) => TOPICS.find((x) => x.slug === slug);
 /* ---------- Shared fragments ---------- */
 const dict = {
   pilot: { en: 'Prototype · Kaduna State pilot', ha: 'Samfurin gwaji · Gwajin Jihar Kaduna' },
-  notice: { en: 'Information only — not a clinical or emergency service', ha: 'Bayani kawai — ba sabis na likita ko gaggawa ba' },
-  emergency: { en: 'Emergency? Call 112', ha: 'Gaggawa? Kira 112' }
+  notice: { en: 'Information only — not a clinical or emergency service', ha: 'Bayani kawai — ba sabis na likita ko gaggawa ba' }
 };
 
 /* ---------- Partners ---------- */
@@ -504,7 +503,6 @@ function layout() {
   <a class="skip-link" href="#main">${L('Skip to main content', 'Tsallaka zuwa babban bayani')}</a>
   <div class="notice-bar bg-secondary text-white"><div class="container d-flex justify-content-between align-items-center gap-3">
     <span class="d-inline-flex align-items-center gap-2 min-w-0"><span class="status-dot" aria-hidden="true"></span><span class="fw-medium text-truncate">${t(dict.pilot)}</span><span class="d-none d-md-inline text-white-50 text-truncate">· ${t(dict.notice)}</span></span>
-    <a class="notice-emergency" href="tel:112">${icon('phone')}${t(dict.emergency)}</a>
   </div></div>
 
   <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top" aria-label="${L('Main navigation', 'Babban menu')}">
@@ -556,7 +554,6 @@ function layout() {
             <li><a href="about.html#limits" class="text-reset">${L('What Lafimora does not do', 'Abin da Lafimora ba ta yi')}</a></li>
             <li><a href="about.html#privacy" class="text-reset">${L('Privacy and your data', 'Sirri da bayananku')}</a></li>
             <li><a href="about.html#review" class="text-reset">${L('How content is reviewed', 'Yadda ake duba bayanai')}</a></li>
-            <li><a href="tel:112" class="text-reset">${L('Emergency: call 112', 'Gaggawa: kira 112')}</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-6">
@@ -571,7 +568,7 @@ function layout() {
       </div>
       <div class="row border-top py-4 mt-lg-10 mt-6 g-md-0 gy-2 small border-opacity-10 border-white">
         <div class="col-md-8">
-          <p class="mb-0">© 2026 Lafimora · YandyTech Community / SolutionLab. LAFI — ${L('Health and wellbeing', 'Lafiya')} · MORA — Motherhood, Outreach, Resources and Awareness.</p>
+          <p class="mb-0">© 2026 Lafimora · YandyTech Community / SolutionLab.</p>
           <p class="mb-0">${L('Design based on', 'Zane bisa')} <a href="https://codescandy.com" class="fw-bold text-white" target="_blank" rel="noopener">MediCloud by Codescandy</a> • ${L('Distributed by', 'Rarrabawa daga')} <a href="https://themewagon.com" class="fw-bold text-white" target="_blank" rel="noopener">ThemeWagon</a></p>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
@@ -631,7 +628,7 @@ function renderHome() {
     [L('Is Lafimora a doctor or a medical service?', 'Shin Lafimora likita ce ko sabis na lafiya?'),
       L('No. Lafimora shares general, professionally reviewed health and nutrition information and helps you find health facilities. It does not diagnose, prescribe or replace a health worker — always speak to a health worker about your own situation.', 'A’a. Lafimora na ba da bayanan lafiya da abinci na gaba ɗaya da ƙwararru suka duba, kuma tana taimaka muku nemo cibiyoyin lafiya. Ba ta gano cuta, ba ta rubuta magani, kuma ba ta maye gurbin ma’aikacin lafiya — ku yi magana da ma’aikacin lafiya game da yanayinku.')],
     [L('What should I do in an emergency?', 'Me zan yi idan akwai gaggawa?'),
-      L('Lafimora is not an emergency service. If a mother or baby has bleeding, fits, difficult breathing, a high fever or another warning sign, go to the nearest health facility now or call 112.', 'Lafimora ba sabis na gaggawa ba ce. Idan uwa ko jariri na zubar jini, farfaɗiya, wahalar numfashi, zazzaɓi mai zafi ko wata alamar haɗari, a je cibiyar lafiya mafi kusa yanzu ko a kira 112.')],
+      L('Lafimora is not an emergency service. If a mother or baby has bleeding, fits, difficult breathing, a high fever or another warning sign, go to the nearest health facility now.', 'Lafimora ba sabis na gaggawa ba ce. Idan uwa ko jariri na zubar jini, farfaɗiya, wahalar numfashi, zazzaɓi mai zafi ko wata alamar haɗari, a je cibiyar lafiya mafi kusa yanzu.')],
     [L('Which languages can I use?', 'Waɗanne harsuna zan iya amfani da su?'),
       L('Hausa and English. You can switch at any time using the language buttons at the top of every page.', 'Hausa da Turanci. Kuna iya canzawa a kowane lokaci ta maɓallan harshe a saman kowane shafi.')],
     [L('Where does the health information come from?', 'Daga ina bayanan lafiya suke fitowa?'),
@@ -948,7 +945,7 @@ function renderTopic() {
         <div><h2 id="danger-title" class="mb-1">${L('Go to a health facility now if you notice:', 'Ku je cibiyar lafiya yanzu idan kun ga:')}</h2><p class="mb-0">${L('Do not wait for an online answer.', 'Kada ku jira amsa ta yanar gizo.')}</p></div>
       </div>
       <div class="row g-4">${tp.dangerLists.map((dl) => `<div class="col-md-6"><div class="danger-list"><h3 class="h4 fw-semibold">${t(dl.title)}</h3><ul class="mb-0">${dl.items.map((i) => `<li>${t(i)}</li>`).join('')}</ul></div></div>`).join('')}</div>
-      <div class="d-flex flex-wrap gap-3 mt-5"><a class="btn btn-danger" href="tel:112">${icon('phone')} ${L('Call 112', 'Kira 112')}</a><a class="btn btn-outline-secondary" href="facilities.html">${L('Find the nearest facility', 'Nemo cibiya mafi kusa')}</a></div>
+      <div class="d-flex flex-wrap gap-3 mt-5"><a class="btn btn-primary" href="facilities.html">${L('Find the nearest facility', 'Nemo cibiya mafi kusa')}</a></div>
     </section>` : ''}
 
     <div class="row g-6">
@@ -1286,8 +1283,8 @@ function botHTML(m) {
     case 'emergency':
       return `<div class="msg-emergency">
         <div class="msg-emergency-head">${icon('alert')}<strong>${L('This may be urgent', 'Wannan na iya zama gaggawa')}</strong></div>
-        <p>${L('Please seek care now. Go to the nearest health facility or call 112. Do not wait for an online answer.', 'Don Allah a nemi kulawa yanzu. A je cibiyar lafiya mafi kusa ko a kira 112. Kada a jira amsa ta yanar gizo.')}</p>
-        <div class="btn-row"><a class="btn btn-danger btn-sm" href="tel:112">${icon('phone')}${L('Call 112', 'Kira 112')}</a><a class="btn btn-secondary btn-sm" href="facilities.html">${icon('pin')}${L('Find a facility', 'Nemo cibiya')}</a></div>
+        <p>${L('Please seek care now. Go to the nearest health facility. Do not wait for an online answer.', 'Don Allah a nemi kulawa yanzu. A je cibiyar lafiya mafi kusa. Kada a jira amsa ta yanar gizo.')}</p>
+        <div class="btn-row"><a class="btn btn-secondary btn-sm" href="facilities.html">${icon('pin')}${L('Find a facility', 'Nemo cibiya')}</a></div>
       </div>
       <p class="msg-note">${icon('info')}<span>${L('Lafimora cannot assess symptoms. A health worker needs to see the mother or child.', 'Lafimora ba za ta iya tantance alamun rashin lafiya ba. Dole ma’aikacin lafiya ya ga uwa ko yaro.')}</span></p>`;
     case 'ai': {
@@ -1501,7 +1498,7 @@ function aiHistory(urgent) {
   while (out.length && out[out.length - 1].role === 'assistant') out.pop();
   if (urgent && out.length) {
     const last = out[out.length - 1];
-    out[out.length - 1] = { role: 'user', content: `${last.content}\n\n[Note from the app: an alert telling the user to go to the nearest health facility now or call 112 is already shown above your reply.]` };
+    out[out.length - 1] = { role: 'user', content: `${last.content}\n\n[Note from the app: an alert telling the user to go to the nearest health facility now is already shown above your reply.]` };
   }
   return out;
 }
@@ -1651,7 +1648,7 @@ function renderChat() {
         ${SUGGESTIONS.map((s, i) => `<button type="button" class="suggest-card" style="--i:${i}" ${chipAttr(s.chip)}><span class="suggest-icon">${icon(s.icon)}</span><span><strong>${t(s.title)}</strong><small>${esc(chipLabel(s.chip))}</small></span></button>`).join('')}
         <a class="suggest-more" href="topics.html">${icon('book')}${L('Browse all health topics', 'Duba duk batutuwan lafiya')}</a>
       </div>
-      <p class="chat-footnote">${icon('lock')}<span>${L('Lafimora is an AI and can make mistakes. Information only — not medical advice. Do not share names, phone numbers or personal medical details.', 'Lafimora AI ce kuma tana iya yin kuskure. Bayani kawai — ba shawarar likita ba. Kada ku rubuta suna, lambar waya ko bayanan lafiya na sirri.')} <a href="tel:112">${L('Emergency? Call 112', 'Gaggawa? Kira 112')}</a></span></p>
+      <p class="chat-footnote">${icon('lock')}<span>${L('Lafimora is an AI and can make mistakes. Information only — not medical advice. Do not share names, phone numbers or personal medical details.', 'Lafimora AI ce kuma tana iya yin kuskure. Bayani kawai — ba shawarar likita ba. Kada ku rubuta suna, lambar waya ko bayanan lafiya na sirri.')}</span></p>
     </div></div>
   </div>`;
 
