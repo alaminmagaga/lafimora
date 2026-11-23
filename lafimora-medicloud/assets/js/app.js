@@ -434,14 +434,14 @@ const topicBySlug = (slug) => TOPICS.find((x) => x.slug === slug);
 
 /* ---------- Shared fragments ---------- */
 const dict = {
-  pilot: { en: 'Prototype · Kaduna State pilot', ha: 'Samfurin gwaji · Gwajin Jihar Kaduna' },
+  pilot: { en: 'Prototype · Kaduna North pilot', ha: 'Samfurin gwaji · Gwajin Arewacin Kaduna' },
   notice: { en: 'Information only — not a clinical or emergency service', ha: 'Bayani kawai — ba sabis na likita ko gaggawa ba' }
 };
 
 /* ---------- Partners ---------- */
 const PARTNERS = [
-  // Logos from each organisation's official website (see assets/images/partners/SOURCES.md)
-  { logo: 'yandytech.png', name: { en: 'YandyTech', ha: 'YandyTech' }, role: { en: 'Developer · SolutionLab', ha: 'Mai haɓakawa · SolutionLab' } },
+  // Logos from each organisation's official website where available (see assets/images/partners/SOURCES.md)
+  { name: { en: 'SolutionLab', ha: 'SolutionLab' }, role: { en: 'Developer', ha: 'Mai haɓakawa' } },
   { logo: 'e-caph.svg', name: { en: 'e-CAPH', ha: 'e-CAPH' }, role: { en: 'Partner', ha: 'Abokin hulɗa' } },
   { logo: 'kaduna-ministry-of-health.png', name: { en: 'Kaduna State Ministry of Health', ha: 'Ma’aikatar Lafiya ta Jihar Kaduna' }, role: { en: 'State health authority', ha: 'Hukumar lafiya ta jiha' } },
   { logo: 'kaduna-state-government.png', name: { en: 'Kaduna State Local Government', ha: 'Ƙananan Hukumomin Jihar Kaduna' }, role: { en: 'Local government areas', ha: 'Ƙananan hukumomi' } }
@@ -536,7 +536,7 @@ function layout() {
       <div class="row gy-6">
         <div class="col-lg-3 col-12">
           <a class="d-inline-flex align-items-center gap-2 mb-4 footer-brand" href="index.html">${brandMark('logo-mark')}<span class="h2 text-white mb-0">Lafimora</span></a>
-          <p>${L('An AI-powered maternal and child health information and healthcare service navigation platform, developed by YandyTech Community through SolutionLab.', 'Dandalin bayanan lafiyar uwa da yara da neman cibiyoyin lafiya mai amfani da AI, wanda YandyTech Community ke haɓakawa ta SolutionLab.')}</p>
+          <p>${L('An AI-powered maternal and child health information and healthcare service navigation platform, developed by SolutionLab.', 'Dandalin bayanan lafiyar uwa da yara da neman cibiyoyin lafiya mai amfani da AI, wanda SolutionLab ke haɓakawa.')}</p>
           ${whatsappButton('btn-sm')}
         </div>
         <div class="col-lg-3 col-6">
@@ -568,7 +568,7 @@ function layout() {
       </div>
       <div class="row border-top py-4 mt-lg-10 mt-6 g-md-0 gy-2 small border-opacity-10 border-white">
         <div class="col-md-8">
-          <p class="mb-0">© 2026 Lafimora · YandyTech Community / SolutionLab.</p>
+          <p class="mb-0">© 2026 Lafimora · SolutionLab.</p>
           <p class="mb-0">${L('Design based on', 'Zane bisa')} <a href="https://codescandy.com" class="fw-bold text-white" target="_blank" rel="noopener">MediCloud by Codescandy</a> • ${L('Distributed by', 'Rarrabawa daga')} <a href="https://themewagon.com" class="fw-bold text-white" target="_blank" rel="noopener">ThemeWagon</a></p>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
@@ -788,7 +788,7 @@ function renderHome() {
                 L('Reviewed by health and nutrition professionals', 'Ƙwararrun lafiya da abinci ne ke dubawa'),
                 L('Answers cite their sources', 'Amsoshi na nuna madogararsu'),
                 L('Clear about what AI can and cannot do', 'Bayyananne game da abin da AI ke iya yi da wanda ba ta iya ba'),
-                L('Piloting in Kaduna State with YandyTech Community', 'Gwaji a Jihar Kaduna tare da YandyTech Community')
+                L('Piloting in Kaduna State with SolutionLab', 'Gwaji a Jihar Kaduna tare da SolutionLab')
               ].map((x) => `<li class="d-flex gap-2 align-items-center mb-3 about-item"><span class="about-check">${checkIcon()}</span><span>${x}</span></li>`).join('')}
             </ul>
             <a class="btn btn-outline-secondary mt-3" href="about.html">${L('More about Lafimora', 'Ƙarin bayani game da Lafimora')}</a>
@@ -1730,7 +1730,7 @@ function renderAbout() {
             ${eyebrow(L('Why Lafimora', 'Me yasa Lafimora'))}
             <h2 class="display-6 mt-2 mb-4">${L('Trusted answers and the right facility, in one place', 'Amsoshi ingantattu da cibiyar da ta dace, a wuri ɗaya')}</h2>
             <p>${L('Health services and information exist, but it is not always easy to find, understand or trust them — especially in a familiar language. Lafimora brings verified maternal and child health information and healthcare service discovery together in one simple, multilingual place.', 'Akwai ayyukan lafiya da bayanai, amma ba koyaushe ake samun su, fahimtar su ko amincewa da su cikin sauƙi ba — musamman a harshen da aka saba. Lafimora ta haɗa ingantattun bayanan lafiyar uwa da yara da neman cibiyoyin lafiya a wuri ɗaya mai sauƙi.')}</p>
-            <p>${L('Lafimora is developed by <strong>YandyTech Community</strong>, a Kaduna-based youth-led organisation, through its <strong>SolutionLab</strong> programme, with support from qualified public-health and nutrition professionals. The pilot begins in Kaduna State, Nigeria.', '<strong>YandyTech Community</strong>, ƙungiyar matasa a Kaduna, ce ke haɓaka Lafimora ta shirinta na <strong>SolutionLab</strong>, tare da tallafin ƙwararrun ma’aikatan lafiya da abinci. Gwajin farko zai fara a Jihar Kaduna, Najeriya.')}</p>
+            <p>${L('Lafimora is developed by <strong>SolutionLab</strong>, a Kaduna-based youth-led organisation, with support from qualified public-health and nutrition professionals. The pilot begins in Kaduna State, Nigeria.', '<strong>SolutionLab</strong>, ƙungiyar matasa a Kaduna, ce ke haɓaka Lafimora, tare da tallafin ƙwararrun ma’aikatan lafiya da abinci. Gwajin farko zai fara a Jihar Kaduna, Najeriya.')}</p>
             <ul class="list-unstyled mt-5 mb-0">
               ${[L('Pregnant women', 'Mata masu juna biyu'), L('Breastfeeding mothers', 'Iyaye mata masu shayarwa'), L('Mothers and caregivers of young children', 'Iyaye da masu kula da ƙananan yara')].map((x) => `<li class="d-flex gap-2 align-items-center mb-3 about-item"><span class="about-check">${checkIcon()}</span><span>${x}</span></li>`).join('')}
             </ul>
@@ -1836,7 +1836,7 @@ function renderAbout() {
         <div class="row align-items-center gy-4">
           <div class="col-lg-8">
             <h2 class="display-6 mb-3">${L('Health facilities, authorities and community groups', 'Cibiyoyin lafiya, hukumomi da ƙungiyoyin al’umma')}</h2>
-            <p>${L('Partnerships help us verify facility information and share approved health messages. To get involved, contact YandyTech Community.', 'Haɗin gwiwa na taimaka mana tabbatar da bayanan cibiyoyi da yaɗa saƙonnin lafiya. Don shiga, a tuntuɓi YandyTech Community.')}</p>
+            <p>${L('Partnerships help us verify facility information and share approved health messages. To get involved, contact SolutionLab.', 'Haɗin gwiwa na taimaka mana tabbatar da bayanan cibiyoyi da yaɗa saƙonnin lafiya. Don shiga, a tuntuɓi SolutionLab.')}</p>
             <div class="d-flex flex-wrap gap-2">${PARTNERS.map((pt) => `<span class="partner-chip">${partnerLogo(pt, 'partner-chip-logo')}${t(pt.name)}</span>`).join('')}</div>
           </div>
           <div class="col-lg-4 text-lg-end"><a class="btn btn-primary" href="chat.html">${L('Try Lafimora', 'Gwada Lafimora')}</a></div>
