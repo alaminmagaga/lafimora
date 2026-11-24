@@ -4,6 +4,7 @@ The logos were downloaded on 21 November 2026 from each organisation's own websi
 
 | File | Organisation | Source |
 |---|---|---|
+| `solutionlab.png` | SolutionLab | User-supplied artwork: `solutionlab (4).png` |
 | `kaduna-ministry-of-health.png` | Kaduna State Ministry of Health | https://health.kdsg.gov.ng/wp-content/uploads/2025/04/moh_logo-removebg-preview.png |
 | `kaduna-state-government.png` | Kaduna State Government seal, used for "Kaduna State Local Government" | https://kdsg.gov.ng/wp-content/uploads/2024/10/cropped-KDSG_logo-192x192.png |
 | `e-caph.svg` | e-CAPH — Enhancing Communities Action for Peace and Better Health Initiative | https://www.e-caph.org/favicon.svg |

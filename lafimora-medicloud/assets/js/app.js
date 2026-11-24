@@ -441,7 +441,7 @@ const dict = {
 /* ---------- Partners ---------- */
 const PARTNERS = [
   // Logos from each organisation's official website where available (see assets/images/partners/SOURCES.md)
-  { name: { en: 'SolutionLab', ha: 'SolutionLab' }, role: { en: 'Developer', ha: 'Mai haɓakawa' } },
+  { logo: 'solutionlab.png', name: { en: 'SolutionLab', ha: 'SolutionLab' }, role: { en: 'Developer', ha: 'Mai haɓakawa' } },
   { logo: 'e-caph.svg', name: { en: 'e-CAPH', ha: 'e-CAPH' }, role: { en: 'Partner', ha: 'Abokin hulɗa' } },
   { logo: 'kaduna-ministry-of-health.png', name: { en: 'Kaduna State Ministry of Health', ha: 'Ma’aikatar Lafiya ta Jihar Kaduna' }, role: { en: 'State health authority', ha: 'Hukumar lafiya ta jiha' } },
   { logo: 'kaduna-state-government.png', name: { en: 'Kaduna State Local Government', ha: 'Ƙananan Hukumomin Jihar Kaduna' }, role: { en: 'Local government areas', ha: 'Ƙananan hukumomi' } }
@@ -568,8 +568,7 @@ function layout() {
       </div>
       <div class="row border-top py-4 mt-lg-10 mt-6 g-md-0 gy-2 small border-opacity-10 border-white">
         <div class="col-md-8">
-          <p class="mb-0">© 2026 Lafimora · SolutionLab.</p>
-          <p class="mb-0">${L('Design based on', 'Zane bisa')} <a href="https://codescandy.com" class="fw-bold text-white" target="_blank" rel="noopener">MediCloud by Codescandy</a> • ${L('Distributed by', 'Rarrabawa daga')} <a href="https://themewagon.com" class="fw-bold text-white" target="_blank" rel="noopener">ThemeWagon</a></p>
+          <p class="mb-0">© 2026 Lafimora · YandyTech SolutionLab</p>
         </div>
         <div class="col-md-4 d-flex justify-content-md-end">
           <p class="mb-0"><span>${L('Pilot status:', 'Matsayin gwaji:')}</span> <span class="text-white">${L('Prototype', 'Samfuri')}</span></p>
