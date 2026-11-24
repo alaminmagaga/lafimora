@@ -20,5 +20,10 @@ assert.doesNotMatch(
   /ThemeWagon/,
   'The rendered footer should not include the ThemeWagon attribution.'
 );
+assert.doesNotMatch(
+  app,
+  /<p class="mb-0"><span>\$\{L\('Pilot status:',/,
+  'The rendered footer should not include the pilot-status label.'
+);
 
 console.log('Footer checks passed.');

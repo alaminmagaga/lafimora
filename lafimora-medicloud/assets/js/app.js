@@ -567,11 +567,8 @@ function layout() {
         </div>
       </div>
       <div class="row border-top py-4 mt-lg-10 mt-6 g-md-0 gy-2 small border-opacity-10 border-white">
-        <div class="col-md-8">
+        <div class="col-12">
           <p class="mb-0">© 2026 Lafimora · YandyTech SolutionLab</p>
-        </div>
-        <div class="col-md-4 d-flex justify-content-md-end">
-          <p class="mb-0"><span>${L('Pilot status:', 'Matsayin gwaji:')}</span> <span class="text-white">${L('Prototype', 'Samfuri')}</span></p>
         </div>
       </div>
     </div>
